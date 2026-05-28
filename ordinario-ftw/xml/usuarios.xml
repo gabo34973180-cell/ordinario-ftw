@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usuarios>
+  <usuario>
+    <nombre>Eren Jaeger</nombre>
+    <matricula>123456</matricula>
+    <password>eren123</password>
+    <imagen>../imagenes/eren.jpg</imagen>
+  </usuario>
+    <usuario>
+    <nombre>Juan</nombre>
+    <matricula>234567</matricula>
+    <password>juan123</password>
+    <imagen>../imagenes/juan.jpg</imagen>
+  </usuario>
+</usuarios>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<publicaciones>
+    <publicacion id="p1">
+        <usuario>Usuario 1</usuario>
+        <descripcion>Descripcion de la publicación</descripcion>
+        <fecha>2024-06-20</fecha>
+        <imagen>../imagenes/publicacion1.jpg</imagen>
+        <reacciones>
+             <meencanta>Usuario 2</meencanta>
+             <meencanta>Usuario 3</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario>
+                <usuario>Usuario 1</usuario>
+                <texto>comentario 1</texto>
+            </comentario>
+        </comentarios>
+    </publicacion>
+</publicaciones>

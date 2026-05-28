@@ -1,0 +1,11 @@
+<?xml version="1.0" enconding="UTF-8"?>
+<grupos>
+    <grupo>
+        <nombre>Grupo 1</nombre>
+        <descripcion>Descripcion del grupo 1</descripcion>
+        <miembros>
+            <miembro>matricula</miembro>
+            <miembro>matricula</miembro>
+        </mienbros>
+    </grupo>
+</grupos>
