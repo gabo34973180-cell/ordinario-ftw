@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/inicio_sesion.css">
     <title>RedUV</title>
 </head>
-<body>
-    <div>
-        <img src="../imagenes/logo.png" alt="Description">
+<body> 
+    <div id = "divLeft">
+        <img id= "imgLogoG" src="../imagenes/logo.png" alt="Description">
     </div>
-    <div>
-        <p>Ingresa tu nombre de usuario</p>
-        <input type="text" id = "txtUsuario">
-        <p>Ingresa tu contraseña</p>
-        <input type="password" id="txtPassword">
-        <button id="btnIniciarSesion">Iniciar sesión</button>
-        <p>No estas registrado</p>
-        <button>Registrarse</button>
+    <div id = "divRight">
+        <p class="campos">Ingresa tu nombre de usuario</p>
+        <input type="text" class="campos" id = "txtUsuario">
+        <p class="campos">Ingresa tu contraseña</p>
+        <input type="password" class="campos" id="txtPassword">
+        <button class="campos" id="btnIniciarSesion">Iniciar sesión</button>
+        <p class="campos">No estas registrado</p>
+        <button class="campos">Registrarse</button>
     </div>
     <script type="module" src="../javascript/btnfunciones.js"></script>
 </body>
