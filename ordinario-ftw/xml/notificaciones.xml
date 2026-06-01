@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notificaciones>
+    <notificacion id="n1">
+        <usuario>Usuario 2</usuario>
+        <tipo>Me Encanta</tipo>
+        <fecha>2024-06-20</fecha>
+        <leida>false</leida>
+    </notificacion>
+
+    <notificacion id="n2">
+        <usuario>Usuario 3</usuario>
+        <tipo>Comentario</tipo>
+        <fecha>2024-06-20</fecha>
+        <leida>false</leida>
+    </notificacion>
+
+    <notificacion id="n3">
+        <usuario>Usuario 4</usuario>
+        <tipo>Nuevo Seguidor</tipo>
+        <fecha>2024-06-20</fecha>
+        <leida>false</leida>
+    </notificacion> 
+</notificaciones>

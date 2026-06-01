@@ -1,11 +1,56 @@
-<?xml version="1.0" enconding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <grupos>
     <grupo>
         <nombre>Grupo 1</nombre>
         <descripcion>Descripcion del grupo 1</descripcion>
+        <imagengrupo>../imagenes/grupo1.jpg</imagengrupo>
         <miembros>
             <miembro>matricula</miembro>
             <miembro>matricula</miembro>
-        </mienbros>
+        </miembros>
+        <publicaciones>
+            <publicacion>
+                <titulo>Publicacion 1</titulo>
+                <usuario>nombre del Usuario</usuario>
+                <contenido>Atención a todos los entusiastas de la ciberseguridad! Este jueves tendremos un taller de 'Introducción a Redes Seguras' en el auditorio de la facultad. No es necesario tener conocimientos avanzados, solo traer tu laptop con alguna distro de Linux (preferentemente Alpine o Ubuntu) y muchas ganas de aprender. Vamos a realizar una práctica real de configuración de servidores Nginx y cómo protegerlos de ataques básicos</contenido>
+                <imagen-pg></imagen-pg>
+                <fecha>2024-06-01</fecha>
+            </publicacion>
+
+            <publicacion>
+                <titulo>Publicacion 2</titulo>
+                <usuario>nombre del usuario</usuario>
+                <contenido>Contenido de la publicacion 2</contenido>
+                <imagen-pg>../imagenes/publicacion.webp</imagen-pg>
+                <fecha>2024-06-02</fecha>
+            </publicacion>
+        </publicaciones>
     </grupo>
+        <grupo>
+        <nombre>Grupo 2</nombre>
+        <descripcion>Descripcion del grupo 2</descripcion>
+        <imagengrupo>../imagenes/grupo1.jpg</imagengrupo>
+        <miembros>
+            <miembro>matricula</miembro>
+            <miembro>matricula</miembro>
+        </miembros>
+        <publicaciones>
+            <publicacion>
+                <titulo>Publicacion 1</titulo>
+                <usuario>nombre del Usuario</usuario>
+                <contenido>Contenido de la publicacion 1</contenido>
+                <imagen-pg>../imagenes/meencanta.jpg</imagen-pg>
+                <fecha>2024-06-01</fecha>
+            </publicacion>
+
+            <publicacion>
+                <titulo>Publicacion 2</titulo>
+                <usuario>nombre del usuario</usuario>
+                <contenido>Contenido de la publicacion 2</contenido>
+                <imagen-pg>../imagenes/publicacion.webp</imagen-pg>
+                <fecha>2024-06-02</fecha>
+            </publicacion>
+        </publicaciones>
+    </grupo>
+    
 </grupos>

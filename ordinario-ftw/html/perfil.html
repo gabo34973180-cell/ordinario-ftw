@@ -3,71 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/globales.css">
+    <link rel="stylesheet" href="../css/perfil.css">
     <title>RedUV - Grupos</title>
 </head>
 <body>
-    <header>
+    <header >
         <nav>
-            <ul>
+            <ul id="menupaginas" class="menupaginas">
                 <li>
-                    <img src="../imagenes/logo.png" alt="logo">
+                    <img class="imgs" id="imgLogo" src="../imagenes/logo.png" alt="logo">
                 </li>
                 <li>
                     <input type="text">
                 </li>
                 <li>
-                    <img src="../imagenes/home.jpg" alt ="Home">
+                    <img class="imgs" id="imgHome" src="../imagenes/home.png" alt ="Home">
                 </li>
                 <li>
-                    <img src="../imagenes/grupos.jpg" alt="Grupos">
+                    <img class="imgs" id="imgGrupos" src="../imagenes/grupos.jpg" alt="Grupos">
                 </li>
                 <li>
-                    <img src="../imagenes/perfil.jpg" alt= "Perfil">
+                    <img class="imgs" id="imgPerfil" src="../imagenes/perfil.png" alt= "Perfil">
                 </li>
                 <li>
-                    <img src="../imagenes/notificaaciones.jpg" alt="Notificaciones">
+                    <img class="imgs" id="imgNotificaciones" src="../imagenes/notificaciones.jpg" alt="Notificaciones">
                 </li>
                 <li>
-                    <img src= "../imagenes/configuracion.jpg" alt="configuracion">
+                    <img class="imgs" id="imgConfiguracion" src= "../imagenes/configuracion.png" alt="configuracion">
                 </li>
             </ul>
         </nav>
     </header>
 
-
-    <aside>
-        <article>
-            <img>
-            <p>Nombre del grupo</p>
-            <p>Descripcion del grupo</p>
-            <button>Unirse</button>
-        
-        </article>
-        <article>
-            <img>
-            <p>Nombre del grupo</p>
-            <p>Descripcion del grupo</p>
-            <button>Unirse</button>
-        </article>
-    </aside>
-
- 
     <main>
-        <section>
-            <img src="../imagenes/fotoportada" alt="Foto de portada">
-            <img src="../imagenes/fotperfil" alt="Foto de perfil">
-            <p>Nombre del usuario</p>
-            <p>Seguidores</p>
-            <p>Seguidos</p>
-            <lu>
-                <li>
-                    <p>lista de publicaciones</p>
-                </li>
-            </lu>
-        </section>
-    </main>
-    <footer>
+        <aside>
+            <article id="grupos" class="buscar-grupos">
+                
+            </article>
+        </aside>
+        <main id ="todoperfil" class="todoperfil">
+            <aside id="perfil" class="perfil">
+            
+            </aside>
 
-    </footer>
+            <aside id="publicaciones" class="contenido">
+            </aside>
+        </main>
+        
+    </main>
+
+    <script type="module" src="../javascript/btnfunciones.js"></script>
 </body>
 </html>

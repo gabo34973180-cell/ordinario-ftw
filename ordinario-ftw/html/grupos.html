@@ -3,70 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/globales.css">
     <link rel="stylesheet" href="../css/grupos.css">
     <title>RedUV - Grupos</title>
 </head>
 <body>
-    <header>
+    <header >
         <nav>
-            <ul>
+            <ul id="menupaginas" class="menupaginas">
                 <li>
-                    <img src="../imagenes/logo.png" alt="logo">
+                    <img class="imgs" id="imgLogo" src="../imagenes/logo.png" alt="logo">
                 </li>
                 <li>
                     <input type="text">
                 </li>
                 <li>
-                    <img src="../imagenes/home.jpg" alt ="Home">
+                    <img class="imgs" id="imgHome" src="../imagenes/home.png" alt ="Home">
                 </li>
                 <li>
-                    <img src="../imagenes/grupos.jpg" alt="Grupos">
+                    <img class="imgs" id="imgGrupos" src="../imagenes/grupos.jpg" alt="Grupos">
                 </li>
                 <li>
-                    <img src="../imagenes/perfil.jpg" alt= "Perfil">
+                    <img class="imgs" id="imgPerfil" src="../imagenes/perfil.png" alt= "Perfil">
                 </li>
                 <li>
-                    <img src="../imagenes/notificaaciones.jpg" alt="Notificaciones">
+                    <img class="imgs" id="imgNotificaciones" src="../imagenes/notificaciones.jpg" alt="Notificaciones">
                 </li>
                 <li>
-                    <img src= "../imagenes/configuracion.jpg" alt="configuracion">
+                    <img class="imgs" id="imgConfiguracion" src= "../imagenes/configuracion.png" alt="configuracion">
                 </li>
             </ul>
         </nav>
     </header>
     <main>
         <aside>
-            <input type="text">
-            <ul>
-                <li>
-                    <p>Aca ba ir el for para mostrar los usurio que coiciden con la busqueda</p>
-                </li>
-            </ul>
-        </aside>
-        <aside>
-            <article>
-                <img>
-                <p>Nombre del grupo</p>
-                <p>nombre del usuario</p>
-                <p>Descripcion de la publicacion</p>
-                <img src="../imagenes/meencanta.jpg">
-                <img src="../imagenes/comentarios.jpg">
-                <img src="../imagenes/compartir.jpg">
-            
-            </article>
-             <article>
-                 <img>
-                <p>nombre del grupo</p>
-                <p>nombre del usuario</p>
-                <p>Descripcion de la publicaicon</p>
-                <img src="../imagenes/meencanta.jpg">
-                <img src="../imagenes/comentarios.jpg">
-                <img src="../imagenes/compartir.jpg">
+            <input type="text" placeholder="Buscar grupos...">
+            <article id="grupos" class="buscar-grupos">
+                 
 
+
+        </aside>
+        <aside id="publicaciones" class="contenido">
+            
         </aside>
     </main>
-    <footer>
 
-    </footer>
+    <script type="module" src="../javascript/btnfunciones.js"></script>
 </body>
 </html>

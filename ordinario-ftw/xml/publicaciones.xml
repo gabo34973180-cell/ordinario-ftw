@@ -1,19 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <publicaciones>
     <publicacion id="p1">
-        <usuario>Usuario 1</usuario>
-        <descripcion>Descripcion de la publicación</descripcion>
+        <usuario>Juan</usuario>
+        <descripcion>Descripción gráfica de mi estabilidad emocional después de ver el primer parcial de Redes... 🐧💻 (Al menos el café de la cafetería sigue estando 10/10). ¿Quién más está en las mismas o ya se dieron de baja de la vida?</descripcion>
         <fecha>2024-06-20</fecha>
-        <imagen>../imagenes/publicacion1.jpg</imagen>
+        <imagen></imagen>
         <reacciones>
              <meencanta>Usuario 2</meencanta>
              <meencanta>Usuario 3</meencanta>
         </reacciones>
         <comentarios>
             <comentario>
-                <usuario>Usuario 1</usuario>
-                <texto>comentario 1</texto>
+                <cmtusuario>Usuario 2</cmtusuario>
+                <texto>comentario 2</texto>
             </comentario>
         </comentarios>
     </publicacion>
+
+    <publicacion id="p2">
+        <usuario>Juan</usuario>
+        <descripcion>¡Llegó la semana de proyectos integradores! 📚 ¿Alguien sabe si la biblioteca de la facultad extenderá su horario o si hay algún cubículo disponible para trabajar en equipo hoy? Dejen sus tips de supervivencia en los comentarios. 👇</descripcion>
+        <fecha>2024-06-20</fecha>
+        <imagen></imagen>
+        <reacciones>
+             <meencanta>Usuario 2</meencanta>
+             <meencanta>Usuario 3</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario>
+                <cmtusuario>Usuario 2</cmtusuario>
+                <texto>comentario 2</texto>
+            </comentario>
+        </comentarios>
+    </publicacion>
+
+    <publicacion id="p3">
+        <usuario>Usuario 3</usuario>
+        <descripcion>Una cabra saltando desde lo mas alto </descripcion>
+        <fecha>2024-06-20</fecha>
+        <imagen>../imagenes/publicacion.webp</imagen>
+        <reacciones>
+             <meencanta>Usuario 2</meencanta>
+             <meencanta>Usuario 3</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario>
+                <cmtusuario>Usuario 2</cmtusuario>
+                <texto>comentario 2</texto>
+            </comentario>
+        </comentarios>
+    </publicacion>
+
 </publicaciones>

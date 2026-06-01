@@ -1,0 +1,122 @@
+
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: #f0f2f5;
+}
+
+
+.buscar-grupos {
+    width: 320px;
+}
+aside input[type="text"] {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+.buscar-grupo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+}
+
+.btn-unirse-pill {
+    background-color: #78be20;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* Columna de posts (Mismas dimensiones que el principal) */
+.contenido {
+    width: 100%;
+    max-width: 600px; /* Base exacta de tu principal */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.panel-publicacion {
+    width: 100%;
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+    border: 1px solid #ddd;
+}
+
+/* CABECERA: Imagen al lado del texto */
+.header-post {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.logo-grupo-post {
+    width: 45px !important;
+    height: 45px !important;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.info-nombres {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-nombres h3 {
+    font-size: 18px;
+    margin: 0 !important;
+    color: #333;
+}
+
+.info-nombres h4 {
+    font-size: 14px;
+    margin: 0 !important;
+    color: #666;
+    font-weight: normal;
+}
+
+.panel-publicacion p {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.img-principal-post {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+.barra-acciones {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+.icon-reaccion {
+    width: 25px !important;
+    height: 25px !important;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+

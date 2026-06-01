@@ -1,62 +1,90 @@
-    export function cargar(){
+export function cargar() {
 
-    let txtUsuario = document.getElementById("txtUsuario") 
-    let txtPassword = document.getElementById("txtPassword")
+    let txtUsuario = document.getElementById("txtUsuario");
+    let txtPassword = document.getElementById("txtPassword");
+
     if (!txtUsuario || !txtPassword) return;
-    txtUsuario.style.backgroundColor=""
-    txtPassword.style.backgroundColor=""
-    const xhttp = new XMLHttpRequest()
-    xhttp.onload = function (){
-        const xmlDoc = xhttp.responseXML
-        const nombrexml = xmlDoc.getElementsByTagName("nombre")
-        const contrasenaxml = xmlDoc.getElementsByTagName("password")
-        if (validar(nombrexml, contrasenaxml, txtUsuario.value, txtPassword.value)){
-            irPrincipal()
-        }else{
-            pintarojo(txtUsuario, txtPassword)
-        }
-    }
-    
 
+    txtUsuario.style.backgroundColor = "";
+    txtPassword.style.backgroundColor = "";
 
-    xhttp.open("GET", "../xml/usuarios.xml" )
-    xhttp.send()
-}
+    const xhttp = new XMLHttpRequest();
 
-function validar(nombrexml, contrasenaxml, nombre, contrana){
-    for (let i = 0; i < nombrexml.length; i++){
-        if (nombrexml[i].textContent == nombre && contrasenaxml[i].textContent == contrana){
-            return true
-        }
-    }
-    return false
-}
+    xhttp.onload = function () {
 
-function pintarojo(txtUsuario, txtPassword){
-    txtUsuario.style.backgroundColor= "red"
-    txtPassword.style.backgroundColor= "red"
-}
+        const xmlDoc = xhttp.responseXML;
 
-export function irPrincipal(){
-    window.location.href = "principal.html"
-}
+        const nombrexml = xmlDoc.getElementsByTagName("nombre");
+        const contrasenaxml = xmlDoc.getElementsByTagName("password");
 
-export function irInicioSesion(){
-    window.location.href= "inicio_sesion.html"
-}
+        if (validar(nombrexml, contrasenaxml, txtUsuario.value, txtPassword.value)) {
 
-export function irRegistro(){
-    window.location.href= "registro.html"
-}
  
-export function irGrupos(){
-    window.location.href ="grupos.html"
+            localStorage.setItem("usuarioLogueado", txtUsuario.value);
+
+            irPrincipal();
+
+        } else {
+
+            pintarojo(txtUsuario, txtPassword);
+
+        }
+    }
+
+    xhttp.open("GET", "../xml/usuarios.xml");
+    xhttp.send();
 }
 
-export function irPerfil(){
-    window.location.href ="perfil.html"
+function validar(nombrexml, contrasenaxml, nombre, contrasena) {
+
+    for (let i = 0; i < nombrexml.length; i++) {
+
+        if (
+            nombrexml[i].textContent === nombre &&
+            contrasenaxml[i].textContent === contrasena
+        ) {
+            return true;
+        }
+    }
+
+    return false;
 }
 
-export function irhome(){
-    window.location.href ="home.html"
+function pintarojo(txtUsuario, txtPassword) {
+
+    txtUsuario.style.backgroundColor = "red";
+    txtPassword.style.backgroundColor = "red";
+
+}
+
+export function irPrincipal() {
+    window.location.href = "principal.html";
+}
+
+export function irInicioSesion() {
+    window.location.href = "inicio_sesion.html";
+}
+
+export function irRegistro() {
+    window.location.href = "registro.html";
+}
+
+export function irGrupos() {
+    window.location.href = "grupos.html";
+}
+
+export function irPerfil() {
+    window.location.href = "perfil.html";
+}
+
+export function irhome() {
+    window.location.href = "home.html";
+}
+
+
+export function cerrarSesion() {
+
+    localStorage.removeItem("usuarioLogueado");
+    window.location.href = "inicio_sesion.html";
+
 }

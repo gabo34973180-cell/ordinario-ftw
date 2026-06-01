@@ -5,11 +5,33 @@
     <matricula>123456</matricula>
     <password>eren123</password>
     <imagen>../imagenes/eren.jpg</imagen>
+    <imagenportada>../imagenes/erenportada.jpg</imagenportada>
+    <seguidores>
+        <seguidor>nombre del usuario</seguidor>
+        <seguidor>nombre del usuario</seguidor>
+    </seguidores>
+
+    <seguidos>
+        <seguido>nombre del usuario</seguido>
+        <seguido>nombre del usuario</seguido>
+    </seguidos>
   </usuario>
-    <usuario>
-    <nombre>Juan</nombre>
-    <matricula>234567</matricula>
-    <password>juan123</password>
-    <imagen>../imagenes/juan.jpg</imagen>
+
+  <usuario>
+  <nombre>Juan</nombre>
+  <matricula>234567</matricula>
+  <password>juan123</password>
+  <imagen>../imagenes/juanperfil.jpg</imagen>
+  <imagenportada>../imagenes/juanportada.jpg</imagenportada>
+  <seguidores>
+      <seguidor>nombre del usuario</seguidor>
+      <seguidor>nombre del usuario</seguidor>
+  </seguidores>
+  <seguidos>
+      <seguido>nombre del usuario</seguido>
+      <seguido>nombre del usuario</seguido>
+  </seguidos>
+
+    
   </usuario>
 </usuarios>
