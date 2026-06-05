@@ -35,7 +35,7 @@
     </publicacion>
 
     <publicacion id="p3">
-        <usuario>Usuario 3</usuario>
+        <usuario>Eren Jaeger</usuario>
         <descripcion>Una cabra saltando desde lo mas alto </descripcion>
         <fecha>2024-06-20</fecha>
         <imagen>../imagenes/publicacion.webp</imagen>

@@ -1,4 +1,4 @@
-// Esta función crea el contenedor flotante en el HTML actual si no existe
+
 function crearContenedorNotificaciones() {
     let panel = document.getElementById("panel-notificaciones");
     
@@ -13,7 +13,6 @@ function crearContenedorNotificaciones() {
             </div>
             <div id="lista-notificaciones"></div>
         `;
-        // Lo inyectamos directo al body de la página actual
         document.body.appendChild(panel);
     }
     return panel;

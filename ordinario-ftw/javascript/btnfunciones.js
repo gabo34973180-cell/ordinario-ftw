@@ -1,21 +1,33 @@
 import * as miModulo from "./validar.js";
+import * as registrarse from "./registrarse.js";
 import * as publicaciones from "./publicaciones.js";
 import * as cargarGrupos from "./grupos.js";
 import * as cargarPerfil from "./perfil.js";
 import * as notificaciones from "./notificaciones.js";
+import * as buscadorPerfiles from "./buscar_perfiles.js";
+import * as configuracion from "./configuracion.js";
 
-const btnIniciarSesion = document.getElementById("btnIniciarSesion")
-const contenedorPublicaciones = document.getElementById("publicaciones");
-const contenedorGrupos = document.getElementById("grupos");
-const contenerdorPerfil = document.getElementById("perfil");
+if (localStorage.getItem("modoOscuro") === "true") {
+    document.body.classList.add("dark-mode");
+}
+
+const btnIniciarSesion = document.getElementById("btnIniciarSesion");
+const btnIrRegistro = document.getElementById("btnIrRegistro");
+const btnCrearCuenta = document.getElementById("btnCrearCuenta");
 
 let imgs = document.getElementsByClassName("imgs")
-
 
 
 if (btnIniciarSesion) {
     btnIniciarSesion.addEventListener("click", miModulo.cargar);
 }
+if (btnIrRegistro) {
+    btnIrRegistro.addEventListener("click", miModulo.irRegistro);
+}
+if (btnCrearCuenta) {
+    btnCrearCuenta.addEventListener("click", registrarse.crearCuenta);
+}
+
 
 for (const img of imgs) {
     if (img.id == "imgLogo") {
@@ -26,8 +38,10 @@ for (const img of imgs) {
         img.addEventListener("click", miModulo.irPerfil);
     } else if (img.id == "imgHome") {
         img.addEventListener("click", miModulo.irhome);
-    } else if (img.id == "imgNotificaciones") { // 👈 2. ASIGNAR EL EVENTO A LA CAMPANA
+    } else if (img.id == "imgNotificaciones") { 
         img.addEventListener("click", notificaciones.toggleNotificaciones);
+    } else if (img.id == "imgConfiguracion" ){
+        img.addEventListener("click", configuracion.toggleConfiguracion);
     }
 }
 
@@ -42,6 +56,23 @@ else if (pagina.includes("grupos.html")) {
 }
 else if (pagina.includes("perfil.html")) {
     cargarPerfil.cargarPerfil();
-}else if(img.id == "imgNotificaciones"){
-    img.addEventListener("click", notificaciones.toggleNotificaciones);
+}
+
+const textBuscarGrupo = document.getElementById("txtbuscarGrupo");
+if (textBuscarGrupo){
+    textBuscarGrupo.addEventListener("keyup",
+    function(e) {
+        cargarGrupos.buscarGrupo(e.target.value);
+    }
+    );
+}
+
+const textBuscarPerfil = document.getElementById("txtBuscarPerfil");
+
+if (textBuscarPerfil){
+    textBuscarPerfil.addEventListener("keyup",
+        (e)=>{
+            buscadorPerfiles.iniciarBusquedaPrefiles(e.target.value);
+        }
+    )
 }

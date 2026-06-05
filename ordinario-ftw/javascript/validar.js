@@ -65,20 +65,18 @@ export function irInicioSesion() {
     window.location.href = "inicio_sesion.html";
 }
 
-export function irRegistro() {
-    window.location.href = "registro.html";
-}
 
 export function irGrupos() {
     window.location.href = "grupos.html";
 }
 
 export function irPerfil() {
+    localStorage.removeItem("perfilSellecionado");
     window.location.href = "perfil.html";
 }
 
 export function irhome() {
-    window.location.href = "home.html";
+    window.location.href = "principal.html";
 }
 
 
@@ -87,4 +85,8 @@ export function cerrarSesion() {
     localStorage.removeItem("usuarioLogueado");
     window.location.href = "inicio_sesion.html";
 
+}
+
+export function irRegistro() {
+    window.location.href = "registrarse.html";
 }

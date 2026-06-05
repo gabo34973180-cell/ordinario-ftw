@@ -34,7 +34,7 @@ function cargarPerfilUsuario(){
 
         for (let i = 0; i < usuariosXml.length; i++){
 
-            let nombreXml =
+            let nombreXml = 
                 usuariosXml[i]
                 .getElementsByTagName("nombre")[0]
                 ?.textContent;
@@ -63,8 +63,8 @@ function cargarPerfilPanel(usuarioXml) {
     let nombre = usuarioXml.getElementsByTagName("nombre")[0]?.textContent || "Usuario";
     let fotoPerfil = usuarioXml.getElementsByTagName("imagen")[0]?.textContent || "../imagenes/perfil.png";
     let fotoPortada = usuarioXml.getElementsByTagName("portada")[0]?.textContent || "../imagenes/juanportada.jpg";
-    let seguidores = usuarioXml.getElementsByTagName("seguidores")[0]?.textContent || "0";
-    let siguiendo = usuarioXml.getElementsByTagName("siguiendo")[0]?.textContent || "0";
+    let seguidores = usuarioXml.getElementsByTagName("seguidor").length;
+    let siguiendo = usuarioXml.getElementsByTagName("seguido").length;
 
 
     let divPortada = document.createElement("div");
@@ -121,6 +121,7 @@ function cargarPublicacionesPerfil(){
     xhttp.open("GET", "../xml/publicaciones.xml");
     xhttp.send();
 }
+ 
 function cargarPublicacionesPanel(publicacionesXml) {
 
     const panelContenedor = document.getElementById("publicaciones");

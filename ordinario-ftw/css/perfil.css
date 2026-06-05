@@ -10,7 +10,6 @@ body {
     font-family: 'Urbanist', sans-serif;
 }
 
-/* --- LAYOUT GLOBAL (2 COLUMNAS) --- */
 main {
     display: flex;
     justify-content: center;
@@ -20,7 +19,6 @@ main {
     width: 100%;
 }
 
-/* --- COLUMNA IZQUIERDA: BUSCADOR --- */
 aside:first-child {
     width: 350px;
     display: flex;
@@ -56,8 +54,6 @@ aside:first-child {
     cursor: pointer;
     font-size: 13px;
 }
-
-/* --- COLUMNA DERECHA: PERFIL COMPLETO --- */
 .todoperfil {
     flex-grow: 1;
     max-width: 800px;
@@ -66,7 +62,6 @@ aside:first-child {
     align-items: center;
 }
 
-/* CABECERA PERFIL (PORTADA Y FOTO) */
 #perfil {
     width: 100%;
     background-color: white;
@@ -99,7 +94,7 @@ aside:first-child {
     height: 180px;
     border-radius: 50%;
     border: 6px solid white;
-    margin-top: -90px; /* Hace que suba y tape la portada */
+    margin-top: -90px; 
     background-color: white;
     object-fit: cover;
     z-index: 10;
@@ -130,10 +125,9 @@ aside:first-child {
     color: #1e293b;
 }
 
-/* --- FEED DE PUBLICACIONES (600px centrado) --- */
 .contenido {
     width: 100%;
-    max-width: 600px; /* Dimensión exacta al principal */
+    max-width: 600px; 
     display: flex;
     flex-direction: column;
     gap: 20px;

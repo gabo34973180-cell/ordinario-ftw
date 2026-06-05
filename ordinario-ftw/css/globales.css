@@ -57,19 +57,19 @@ header {
     height: auto;
     filter: none;
 }
-/* --- VENTANA EMERGENTE FLOTANTE (ESTILO DE TU IMAGEN) --- */
+
 .ventana-notificaciones {
-    display: none; /* Oculta por defecto */
+    display: none; 
     position: fixed;
-    top: 80px;        /* Queda exactamente abajo de tu Header de 80px */
-    left: 0;          /* Se pega por completo al borde izquierdo */
-    width: 320px;     /* Ancho idéntico al de tu captura */
-    height: calc(100vh - 80px); /* Ocupa todo el alto de la pantalla hacia abajo */
+    top: 80px;      
+    left: 0;        
+    width: 320px;     
+    height: calc(100vh - 80px);
     background-color: white;
     border-right: 2px solid #e0e0e0;
     box-shadow: 4px 0 10px rgba(0,0,0,0.1);
-    z-index: 9999;    /* Por encima de cualquier publicación */
-    overflow-y: auto; /* Si hay muchas notificaciones, genera scroll interno */
+    z-index: 9999;    
+    overflow-y: auto; 
 }
 
 .notificaciones-header {
@@ -89,7 +89,7 @@ header {
     object-fit: contain;
 }
 
-/* CADA MENSAJE DE NOTIFICACIÓN */
+
 .item-notificacion {
     padding: 20px 15px;
     border-bottom: 1px solid #eee;

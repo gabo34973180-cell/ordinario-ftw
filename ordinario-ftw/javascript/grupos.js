@@ -1,3 +1,4 @@
+let gruposGuardados = [];
 export function cargarGrupos(){
     const xhttp = new XMLHttpRequest();
 
@@ -108,7 +109,7 @@ function cargarGruposPanelpublicaciones(gruposXml){
                 usuario.textContent = usuarioDoc.textContent;
                 infoNombres.appendChild(usuario);
             }
-            // --- FIN CABECERA ---
+
 
             if (contenidoDoc){
                 let contenido = document.createElement("p");
@@ -123,7 +124,6 @@ function cargarGruposPanelpublicaciones(gruposXml){
                 panelPublicacion.appendChild(imagen);
             }
 
-            // Barra de reacciones
             let barraAcciones = document.createElement("div");
             barraAcciones.classList.add("barra-acciones");
             panelPublicacion.appendChild(barraAcciones);
@@ -138,3 +138,15 @@ function cargarGruposPanelpublicaciones(gruposXml){
         }
     }
 }
+
+function buscarGrupo(grupo){
+    texto = texto.toLowerCase();
+    const gruposFiltrados = gruposGuardados.filter(
+        grupo =>{
+            const nombreGrupo = grupo.getElementsByTagName("nombre")[0].textContent.toLowerCase();
+            return nombreGrupo.includes(texto);
+        }
+    );
+    cargarGruposPanelBuscar(gruposFiltrados);
+        
+}   
