@@ -1,38 +1,75 @@
-export function iniciarBusquedaPrefiles() {
-    const txtBuscar = document.getElementById('txtBuscarPerfil')
-    if (!txtBuscar) return;
-    
-    txtBuscar.addEventListener("keyup", buscarUsuarios);
+let usuariosGuardados = [];
 
-}
+const xhttp = new XMLHttpRequest();
 
-function buscarUsuarios() {
-    const texto = document.getElementById("txtBuscarPerfil").value.toLowerCase();
-    const xhttp = new XMLHttpRequest();
+xhttp.onload = function () {
 
-    xhttp.onload = function() {
-        const xmlDoc = xhttp.responseXML;
-        const usuarios = xmlDoc.getElementsByTagName("usuario");
+    const xmlDoc = xhttp.responseXML;
 
-        mostrarUsuarios(texto, usuarios);
+    if (!xmlDoc) {
+        console.error("No se pudo leer usuarios.xml");
+        return;
     }
-    xhttp.open("GET", "../xml/usuarios.xml")
-    xhttp.send();
+
+    usuariosGuardados = [
+        ...xmlDoc.getElementsByTagName("usuario")
+    ];
+};
+
+xhttp.open("GET", "../xml/usuarios.xml");
+xhttp.send();
+
+export function iniciarBusquedaPerfiles(texto) {
+    console.log(texto);
+
+    texto = texto.toLowerCase();
+
+    const usuariosFiltrados = usuariosGuardados.filter(
+        usuario => {
+
+            const nombre =
+                usuario
+                    .getElementsByTagName("nombre")[0]
+                    .textContent
+                    .toLowerCase();
+
+            return nombre.includes(texto);
+        }
+    );
+
+    mostrarUsuarios(usuariosFiltrados);
 }
 
-function mostrarUsuarios(texto, usuarios) {
+function mostrarUsuarios(usuarios) {
+
     const lista = document.getElementById("listarPerfiles");
+
+    if (!lista) return;
+
     lista.innerHTML = "";
-    for (let i = 0; i < usuarios.length; i ++){
-        const nombre = usuarios[i].getElementsByTagName("nombre")[0].textContent;
-        if (nombre.toLowerCase().includes(texto)){
-            const li = document.createElement("li");
-            li.textContent = nombre;
-            li.style.cursor = "pointer";
-            li.addEventListener("click", function (){
-                localStorage.setItem("perfilSeleccionado", nombre);
-                window.location.href = "perfil.html";
-            })
-        }
+
+    for (let i = 0; i < usuarios.length; i++) {
+
+        const nombre =
+            usuarios[i]
+                .getElementsByTagName("nombre")[0]
+                .textContent;
+
+        const li = document.createElement("li");
+
+        li.textContent = nombre;
+        li.style.cursor = "pointer";
+
+        li.addEventListener("click", () => {
+
+            localStorage.setItem(
+                "perfilSeleccionado",
+                nombre
+            );
+
+            window.location.href = "perfil.html";
+        });
+
+        lista.appendChild(li);
     }
 }

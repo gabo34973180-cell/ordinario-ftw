@@ -1,4 +1,4 @@
-/* --- RESET Y BASE --- */
+
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +10,7 @@ body {
     font-family: 'Urbanist', sans-serif;
 }
 
+
 main {
     display: flex;
     justify-content: center;
@@ -19,6 +20,7 @@ main {
     width: 100%;
 }
 
+/* --- COLUMNA IZQUIERDA: BUSCADOR --- */
 aside:first-child {
     width: 350px;
     display: flex;
@@ -54,6 +56,8 @@ aside:first-child {
     cursor: pointer;
     font-size: 13px;
 }
+
+
 .todoperfil {
     flex-grow: 1;
     max-width: 800px;
@@ -125,6 +129,7 @@ aside:first-child {
     color: #1e293b;
 }
 
+
 .contenido {
     width: 100%;
     max-width: 600px; 
@@ -165,7 +170,6 @@ aside:first-child {
     margin-bottom: 15px;
 }
 
-/* REACCIONES */
 .barra-acciones {
     display: flex;
     gap: 25px;

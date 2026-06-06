@@ -10,6 +10,7 @@ export function cargarGrupos(){
             return;
         }
         const gruposXml = xmlDoc.getElementsByTagName("grupo");
+        gruposGuardados = [...gruposXml];
         cargarGruposPanelBuscar(gruposXml);
         cargarGruposPanelpublicaciones(gruposXml);
     };
@@ -31,8 +32,6 @@ function cargarGruposPanelBuscar(gruposXml){
 
         let grupoDoc = grupoActual.getElementsByTagName("nombre")[0];
         let descripcionDoc = grupoActual.getElementsByTagName("descripcion")[0];
-        let imagenDoc = grupoActual.getElementsByTagName("imagengrupo")[0];
-
         let panelGrupo = document.createElement("div");
         panelGrupo.classList.add("buscar-grupo");
         panelContenedor.appendChild(panelGrupo);
@@ -45,18 +44,19 @@ function cargarGruposPanelBuscar(gruposXml){
         if (grupoDoc){
             let grupo = document.createElement("h3");
             grupo.textContent = grupoDoc.textContent;
-            panelGrupo.appendChild(grupo);
+            infoTexto.appendChild(grupo);
         }
 
         if (descripcionDoc){
             let descripcion = document.createElement("p");
             descripcion.textContent = descripcionDoc.textContent;
-            panelGrupo.appendChild(descripcion);
+            infoTexto.appendChild(descripcion);
         }
                  
         let btnUnirse = document.createElement("button");
         btnUnirse.textContent = "Unirse";
         btnUnirse.classList.add("btn-unirse-pill");
+
         panelGrupo.appendChild(btnUnirse);
     }
 }
@@ -139,7 +139,7 @@ function cargarGruposPanelpublicaciones(gruposXml){
     }
 }
 
-function buscarGrupo(grupo){
+export function buscarGrupo(texto){
     texto = texto.toLowerCase();
     const gruposFiltrados = gruposGuardados.filter(
         grupo =>{
@@ -147,6 +147,8 @@ function buscarGrupo(grupo){
             return nombreGrupo.includes(texto);
         }
     );
+
     cargarGruposPanelBuscar(gruposFiltrados);
+  
         
 }   

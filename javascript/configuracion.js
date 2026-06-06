@@ -1,4 +1,5 @@
 import { cerrarSesion } from "./validar.js";
+
 if (localStorage.getItem("modoOscuro") === "true") {
     document.body.classList.add("dark-mode");
 }
