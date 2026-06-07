@@ -1,4 +1,7 @@
-const usuarioActivo = localStorage.getItem("usuarioLogueado");
+const perfilSeleccionado = sessionStorage.getItem("perfilSeleccionado");
+
+const usuarioActivo =perfilSeleccionado || localStorage.getItem("usuarioLogueado");
+
 export function cargarPerfil(){
     cargarPerfilUsuario();
     cargarPublicacionesPerfil();
@@ -7,7 +10,9 @@ export function cargarPerfil(){
 
 function cargarPerfilUsuario(){
 
-    const usuarioActivo = localStorage.getItem("usuarioLogueado");
+    const perfilSeleccionado =sessionStorage.getItem("perfilSeleccionado");
+
+    const usuarioActivo = perfilSeleccionado ||localStorage.getItem("usuarioLogueado");
 
     if (!usuarioActivo){
         console.error("No hay usuario logueado");
@@ -130,7 +135,9 @@ function cargarPublicacionesPanel(publicacionesXml) {
 
     panelContenedor.innerHTML = "";
 
-    const usuarioActivo = localStorage.getItem("usuarioLogueado");
+    const perfilSeleccionado = sessionStorage.getItem("perfilSeleccionado");
+
+    const usuarioActivo = perfilSeleccionado || localStorage.getItem("usuarioLogueado");
 
     for (let i = 0; i < publicacionesXml.length; i++) {
 
@@ -141,6 +148,10 @@ function cargarPublicacionesPanel(publicacionesXml) {
             ?.textContent;
 
         if (usuarioPub === usuarioActivo) {
+
+            let reacciones = pubActual.getElementsByTagName("meencanta");
+
+            let comentarios = pubActual.getElementsByTagName("comentario");
 
             let descripcionPub =
                 pubActual.getElementsByTagName("descripcion")[0]
@@ -179,26 +190,32 @@ function cargarPublicacionesPanel(publicacionesXml) {
             barraAcciones.classList.add("barra-acciones");
             panelPost.appendChild(barraAcciones);
 
+
             let imgMeEncanta = document.createElement("img");
             imgMeEncanta.src = "../imagenes/meencanta.jpg";
             imgMeEncanta.classList.add("icon-reaccion");
             barraAcciones.appendChild(imgMeEncanta);
+
+            imgMeEncanta.addEventListener(
+                "click",
+                function(){
+                    mostrarReacciones(reacciones);
+                }
+            );
 
             let imgComentarios = document.createElement("img");
             imgComentarios.src = "../imagenes/comentarios.jpg";
             imgComentarios.classList.add("icon-reaccion");
             barraAcciones.appendChild(imgComentarios);
 
+            imgComentarios.addEventListener(
+                "click",
+                function(){
+                    mostrarComentarios(comentarios);
+                }
+            );
 
-            let imgCompartir = document.createElement("img");
-            imgCompartir.src = "../imagenes/compartir.jpg";
-            imgCompartir.classList.add("icon-reaccion");
-            barraAcciones.appendChild(imgCompartir);
 
-
-
-
-           
         }
     }
 }
@@ -252,5 +269,108 @@ function cargarGruposPanelBuscar(gruposXml){
         btnUnirse.textContent = "Unirse";
         btnUnirse.classList.add("btn-unirse-pill");
         panelGrupo.appendChild(btnUnirse);
+    }
+}
+
+function mostrarReacciones(reacciones){
+
+    eliminarPopup();
+
+    let popup = document.createElement("div");
+    popup.classList.add("popup-info");
+
+    let titulo = document.createElement("h4");
+    titulo.textContent = "Reacciones";
+    popup.appendChild(titulo);
+
+    let lista = document.createElement("ul");
+
+    for(let i = 0; i < reacciones.length; i++){
+
+        let item = document.createElement("li");
+        item.textContent = reacciones[i].textContent;
+        lista.appendChild(item);
+    }
+
+    popup.appendChild(lista);
+
+    document.body.appendChild(popup);
+
+    setTimeout(() => {
+        document.addEventListener(
+            "click",
+            cerrarAlDarClickFuera
+        );
+    }, 100);
+}
+
+function mostrarComentarios(comentarios){
+
+    eliminarPopup();
+
+    let popup = document.createElement("div");
+    popup.classList.add("popup-info");
+
+    let titulo = document.createElement("h4");
+    titulo.textContent = "Comentarios";
+    popup.appendChild(titulo);
+
+    for(let i = 0; i < comentarios.length; i++){
+
+        let usuario =
+            comentarios[i]
+            .getElementsByTagName("cmtusuario")[0];
+
+        let texto =
+            comentarios[i]
+            .getElementsByTagName("texto")[0];
+
+        let bloque = document.createElement("div");
+
+        bloque.classList.add("comentario-item");
+
+        bloque.innerHTML = `
+            <strong>${usuario.textContent}</strong>
+            <p>${texto.textContent}</p>
+        `;
+
+        popup.appendChild(bloque);
+    }
+
+    document.body.appendChild(popup);
+
+    setTimeout(() => {
+        document.addEventListener(
+            "click",
+            cerrarAlDarClickFuera
+        );
+    }, 100);
+}
+
+function eliminarPopup(){
+
+    let viejo = document.querySelector(".popup-info");
+
+    if(viejo){
+        viejo.remove();
+    }
+}
+
+function cerrarAlDarClickFuera(e){
+
+    let popup = document.querySelector(".popup-info");
+
+    if(
+        popup &&
+        !popup.contains(e.target) &&
+        !e.target.classList.contains("icon-reaccion")
+    ){
+
+        popup.remove();
+
+        document.removeEventListener(
+            "click",
+            cerrarAlDarClickFuera
+        );
     }
 }

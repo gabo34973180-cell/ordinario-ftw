@@ -53,11 +53,19 @@ function cargarGruposPanelBuscar(gruposXml){
             infoTexto.appendChild(descripcion);
         }
                  
-        let btnUnirse = document.createElement("button");
-        btnUnirse.textContent = "Unirse";
-        btnUnirse.classList.add("btn-unirse-pill");
+        let btnVer = document.createElement("button");
+        btnVer.textContent = "Ver";
+        btnVer.classList.add("btn-unirse-pill");
 
-        panelGrupo.appendChild(btnUnirse);
+        btnVer.addEventListener("click", () => {
+
+            const nombreGrupo =
+                grupoDoc.textContent;
+
+            mostrarPublicacionesGrupo(nombreGrupo);
+        });
+
+        panelGrupo.appendChild(btnVer);
     }
 }
 
@@ -73,11 +81,13 @@ function cargarGruposPanelpublicaciones(gruposXml){
         let publicaciones = grupoActual.getElementsByTagName("publicacion");
 
         for (let j = 0; j < publicaciones.length; j++){
+
             let publicacionActual = publicaciones[j];
             let usuarioDoc = publicacionActual.getElementsByTagName("usuario")[0];
             let contenidoDoc = publicacionActual.getElementsByTagName("contenido")[0];
             let imagenDoc = publicacionActual.getElementsByTagName("imagen-pg")[0]; 
-
+            let reacciones = publicacionActual.getElementsByTagName("meencanta");
+            let comentarios = publicacionActual.getElementsByTagName("comentario");
             let panelPublicacion = document.createElement("div");
             panelPublicacion.classList.add("panel-publicacion");
             panelContenedor.appendChild(panelPublicacion);
@@ -128,13 +138,30 @@ function cargarGruposPanelpublicaciones(gruposXml){
             barraAcciones.classList.add("barra-acciones");
             panelPublicacion.appendChild(barraAcciones);
 
-            let icons = ["meencanta.jpg", "comentarios.jpg", "compartir.jpg"];
-            icons.forEach(icon => {
-                let img = document.createElement("img");
-                img.src = `../imagenes/${icon}`;
-                img.classList.add("icon-reaccion");
-                barraAcciones.appendChild(img);
-            });
+            let imgMeEncanta = document.createElement("img");
+            imgMeEncanta.src = "../imagenes/meencanta.jpg";
+            imgMeEncanta.classList.add("icon-reaccion");
+            barraAcciones.appendChild(imgMeEncanta);
+
+            imgMeEncanta.addEventListener(
+                "click",
+                function(){
+                    mostrarReacciones(reacciones);
+                }
+            );
+
+            let imgComentarios = document.createElement("img");
+            imgComentarios.src = "../imagenes/comentarios.jpg";
+            imgComentarios.classList.add("icon-reaccion");
+            barraAcciones.appendChild(imgComentarios);
+
+            imgComentarios.addEventListener(
+                "click",
+                function(){
+                    mostrarComentarios(comentarios);
+                }
+            );
+
         }
     }
 }
@@ -152,3 +179,119 @@ export function buscarGrupo(texto){
   
         
 }   
+
+export function mostrarPublicacionesGrupo(grupoSeleccionado){
+
+    const gruposFiltrados = gruposGuardados.filter(
+        grupo => {
+
+            const nombreGrupo = grupo.getElementsByTagName("nombre")[0].textContent;
+            return nombreGrupo === grupoSeleccionado;
+        }
+    );
+
+    cargarGruposPanelpublicaciones(gruposFiltrados);
+}
+
+function mostrarReacciones(reacciones){
+
+    eliminarPopup();
+
+    let popup = document.createElement("div");
+    popup.classList.add("popup-info");
+
+    let titulo = document.createElement("h4");
+    titulo.textContent = "Reacciones";
+    popup.appendChild(titulo);
+
+    let lista = document.createElement("ul");
+
+    for(let i = 0; i < reacciones.length; i++){
+
+        let item = document.createElement("li");
+        item.textContent = reacciones[i].textContent;
+        lista.appendChild(item);
+    }
+
+    popup.appendChild(lista);
+
+    document.body.appendChild(popup);
+
+    setTimeout(() => {
+        document.addEventListener(
+            "click",
+            cerrarAlDarClickFuera
+        );
+    }, 100);
+}
+
+function mostrarComentarios(comentarios){
+
+    eliminarPopup();
+
+    let popup = document.createElement("div");
+    popup.classList.add("popup-info");
+
+    let titulo = document.createElement("h4");
+    titulo.textContent = "Comentarios";
+    popup.appendChild(titulo);
+
+    for(let i = 0; i < comentarios.length; i++){
+
+        let usuario =
+            comentarios[i]
+            .getElementsByTagName("cmtusuario")[0];
+
+        let texto =
+            comentarios[i]
+            .getElementsByTagName("texto")[0];
+
+        let bloque = document.createElement("div");
+
+        bloque.classList.add("comentario-item");
+
+        bloque.innerHTML = `
+            <strong>${usuario.textContent}</strong>
+            <p>${texto.textContent}</p>
+        `;
+
+        popup.appendChild(bloque);
+    }
+
+    document.body.appendChild(popup);
+
+    setTimeout(() => {
+        document.addEventListener(
+            "click",
+            cerrarAlDarClickFuera
+        );
+    }, 100);
+}
+
+function eliminarPopup(){
+
+    let viejo = document.querySelector(".popup-info");
+
+    if(viejo){
+        viejo.remove();
+    }
+}
+
+function cerrarAlDarClickFuera(e){
+
+    let popup = document.querySelector(".popup-info");
+
+    if(
+        popup &&
+        !popup.contains(e.target) &&
+        !e.target.classList.contains("icon-reaccion")
+    ){
+
+        popup.remove();
+
+        document.removeEventListener(
+            "click",
+            cerrarAlDarClickFuera
+        );
+    }
+}

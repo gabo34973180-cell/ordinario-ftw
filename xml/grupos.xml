@@ -15,6 +15,16 @@
                 <contenido>Atención a todos los entusiastas de la ciberseguridad! Este jueves tendremos un taller de 'Introducción a Redes Seguras' en el auditorio de la facultad. No es necesario tener conocimientos avanzados, solo traer tu laptop con alguna distro de Linux (preferentemente Alpine o Ubuntu) y muchas ganas de aprender. Vamos a realizar una práctica real de configuración de servidores Nginx y cómo protegerlos de ataques básicos</contenido>
                 <imagen-pg></imagen-pg>
                 <fecha>2024-06-01</fecha>
+                <reacciones>
+                    <meencanta>Usuario 2</meencanta>
+                    <meencanta>Usuario 3</meencanta>
+                </reacciones>
+                <comentarios>
+                    <comentario>
+                        <cmtusuario>Usuario 2</cmtusuario>
+                        <texto>comentario 2</texto>
+                    </comentario>
+                </comentarios>
             </publicacion>
 
             <publicacion>
@@ -23,10 +33,20 @@
                 <contenido>Contenido de la publicacion 2</contenido>
                 <imagen-pg>../imagenes/publicacion.webp</imagen-pg>
                 <fecha>2024-06-02</fecha>
+                <reacciones>
+                    <meencanta>Usuario 2</meencanta>
+                    <meencanta>Usuario 3</meencanta>
+                </reacciones>
+                <comentarios>
+                    <comentario>
+                        <cmtusuario>Usuario 2</cmtusuario>
+                        <texto>comentario 2</texto>
+                    </comentario>
+                </comentarios>
             </publicacion>
         </publicaciones>
     </grupo>
-        <grupo>
+    <grupo>
         <nombre>Grupo 2</nombre>
         <descripcion>Descripcion del grupo 2</descripcion>
         <imagengrupo>../imagenes/grupo1.jpg</imagengrupo>
@@ -41,6 +61,17 @@
                 <contenido>Contenido de la publicacion 1</contenido>
                 <imagen-pg>../imagenes/meencanta.jpg</imagen-pg>
                 <fecha>2024-06-01</fecha>
+                <reacciones>
+                    <meencanta>Usuario 2</meencanta>
+                    <meencanta>Usuario 3</meencanta>
+                </reacciones>
+                <comentarios>
+                    <comentario>
+                        <cmtusuario>Usuario 2</cmtusuario>
+                        <texto>comentario 2</texto>
+                    </comentario>
+                </comentarios>
+
             </publicacion>
 
             <publicacion>
@@ -49,6 +80,18 @@
                 <contenido>Contenido de la publicacion 2</contenido>
                 <imagen-pg>../imagenes/publicacion.webp</imagen-pg>
                 <fecha>2024-06-02</fecha>
+
+                <reacciones>
+                    <meencanta>Usuario 2</meencanta>
+                    <meencanta>Usuario 3</meencanta>
+                </reacciones>
+                <comentarios>
+                    <comentario>
+                        <cmtusuario>Usuario 2</cmtusuario>
+                        <texto>comentario 2</texto>
+                    </comentario>
+                </comentarios>
+
             </publicacion>
         </publicaciones>
     </grupo>

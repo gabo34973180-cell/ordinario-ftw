@@ -37,10 +37,12 @@ for (const img of imgs) {
     } else if (img.id == "imgGrupos") {
         img.addEventListener("click", miModulo.irGrupos);
 
-    } else if (img.id == "imgPerfil") {
-        img.addEventListener("click", miModulo.irPerfil);
-
-    } else if (img.id == "imgHome") {
+    }else if (img.id == "imgPerfil") {
+        img.addEventListener("click", () => {
+            sessionStorage.removeItem("perfilSeleccionado");
+            miModulo.irPerfil();
+        });
+    }else if (img.id == "imgHome") {
         img.addEventListener("click", miModulo.irhome);
 
     } else if (img.id == "imgNotificaciones") {

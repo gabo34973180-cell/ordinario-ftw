@@ -15,10 +15,12 @@ function cargarPublicacionesPanel(publicacionesXml){
 
     for (let i = 0; i < publicacionesXml.length; i++){
         let postActual = publicacionesXml[i];
-
+        let reacciones = postActual.getElementsByTagName("meencanta");
+        let comentarios = postActual.getElementsByTagName("comentario");
         let usuarioDoc = postActual.getElementsByTagName("usuario")[0];
         let descripcionDoc = postActual.getElementsByTagName("descripcion")[0];
         let imagenDoc = postActual.getElementsByTagName("imagen")[0]; 
+
 
         let panelPublicacion = document.createElement("div")
         panelPublicacion.classList.add("panel-publicacion")
@@ -48,17 +50,114 @@ function cargarPublicacionesPanel(publicacionesXml){
         imgMeEncanta.src = "../imagenes/meencanta.jpg";
         imgMeEncanta.classList.add("icon-reaccion");
         barraAcciones.appendChild(imgMeEncanta);
+        imgMeEncanta.addEventListener("click",
+            function(){
+                mostrarReacciones(reacciones);
+            }
+        );
 
         let imgComentarios = document.createElement("img");
         imgComentarios.src = "../imagenes/comentarios.jpg";
         imgComentarios.classList.add("icon-reaccion");
         barraAcciones.appendChild(imgComentarios);
+        imgComentarios.addEventListener("click",
+            function(){
+
+                mostrarComentarios(comentarios);
+
+            }
+        );
 
 
-        let imgCompartir = document.createElement("img");
-        imgCompartir.src = "../imagenes/compartir.jpg";
-        imgCompartir.classList.add("icon-reaccion");
-        barraAcciones.appendChild(imgCompartir);
         
+    }
+}
+
+function mostrarReacciones(reacciones){
+
+    eliminarPopup();
+
+    let popup = document.createElement("div");
+    popup.classList.add("popup-info");
+
+    let titulo = document.createElement("h4");
+    titulo.textContent = "Reacciones";
+    popup.appendChild(titulo);
+
+    let lista = document.createElement("ul");
+
+    for(let i = 0; i < reacciones.length; i++){
+        let item = document.createElement("li");
+        item.textContent = reacciones[i].textContent;
+        lista.appendChild(item);
+    }
+
+    popup.appendChild(lista);
+
+    document.body.appendChild(popup);
+
+    setTimeout(() => {
+        document.addEventListener("click", cerrarAlDarClickFuera);
+    }, 100);
+}
+
+
+function mostrarComentarios(comentarios){
+
+    eliminarPopup();
+
+    let popup = document.createElement("div");
+    popup.classList.add("popup-info");
+
+    let titulo = document.createElement("h4");
+    titulo.textContent = "Comentarios";
+    popup.appendChild(titulo);
+
+    for(let i = 0; i < comentarios.length; i++){
+
+        let usuario = comentarios[i].getElementsByTagName("cmtusuario")[0];
+
+        let texto = comentarios[i].getElementsByTagName("texto")[0];
+
+        let bloque = document.createElement("div");
+
+        bloque.classList.add("comentario-item");
+
+        bloque.innerHTML = `
+            <strong>${usuario.textContent}</strong>
+            <p>${texto.textContent}</p>
+        `;
+
+        popup.appendChild(bloque);
+    }
+
+    document.body.appendChild(popup);
+
+    setTimeout(() => {
+        document.addEventListener("click", cerrarAlDarClickFuera);
+    }, 100);
+}
+
+function eliminarPopup(){
+
+    let viejo = document.querySelector(".popup-info");
+
+    if(viejo){
+        viejo.remove();
+    }
+}
+
+function cerrarAlDarClickFuera(e){
+
+    let popup = document.querySelector(".popup-info");
+
+    if(
+        popup && !popup.contains(e.target) && !e.target.classList.contains("icon-reaccion")
+    ){
+        popup.remove();
+        document.removeEventListener(
+            "click",
+            cerrarAlDarClickFuera
+        );
     }
 }

@@ -50,19 +50,31 @@ function mostrarUsuarios(usuarios) {
 
     for (let i = 0; i < usuarios.length; i++) {
 
-        const nombre =
-            usuarios[i]
-                .getElementsByTagName("nombre")[0]
-                .textContent;
+    const nombre = usuarios[i].getElementsByTagName("nombre")[0].textContent;
+    
+        let panelPersonas = document.createElement("div");
+        panelPersonas.classList.add("panel-personas");
 
-        const li = document.createElement("li");
+        let infoTexto = document.createElement("div");
+        infoTexto.classList.add("info-persona-texto");
 
-        li.textContent = nombre;
-        li.style.cursor = "pointer";
+        panelPersonas.appendChild(infoTexto);
 
-        li.addEventListener("click", () => {
+        let titulo = document.createElement("h3");
+        titulo.textContent = nombre;
 
-            localStorage.setItem(
+        infoTexto.appendChild(titulo);
+
+        let btnVerPerfil = document.createElement("button");
+        btnVerPerfil.textContent = "Ver perfil";
+        btnVerPerfil.classList.add("btn-ver-perfil");
+
+        panelPersonas.appendChild(btnVerPerfil);
+
+        lista.appendChild(panelPersonas);
+        btnVerPerfil.addEventListener("click", () => {
+
+            sessionStorage.setItem(
                 "perfilSeleccionado",
                 nombre
             );
@@ -70,6 +82,5 @@ function mostrarUsuarios(usuarios) {
             window.location.href = "perfil.html";
         });
 
-        lista.appendChild(li);
     }
 }
