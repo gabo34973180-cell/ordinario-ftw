@@ -62,7 +62,7 @@ export function irPrincipal() {
 }
 
 export function irInicioSesion() {
-    window.location.href = "inicio_sesion.html";
+    window.location.href = "Inicio_sesion.html";
 }
 
 
