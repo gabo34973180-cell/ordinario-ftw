@@ -1,38 +1,432 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <usuarios>
   <usuario>
-    <nombre>Eren Jaeger</nombre>
-    <matricula>123456</matricula>
-    <password>eren123</password>
-    <imagen>../imagenes/eren.jpg</imagen>
-    <imagenportada>../imagenes/erenportada.jpg</imagenportada>
+    <nombre>Juan</nombre>
+    <matricula>zS24019843</matricula>
+    <password>juan123</password>
+    <imagen>../imagenes/juan.jpg</imagen>
+    <imagenportada>../imagenes/juanportada.jpg</imagenportada>
     <seguidores>
-        <seguidor>nombre del usuario</seguidor>
-        <seguidor>nombre del usuario</seguidor>
+      <seguidor>Daniel_48689</seguidor>
+      <seguidor>Jorge_548</seguidor>
+      <seguidor>Sebas_773</seguidor>
     </seguidores>
-
     <seguidos>
-        <seguido>nombre del usuario</seguido>
-        <seguido>nombre del usuario</seguido>
+      <seguido>Eren Jaeger</seguido>
+      <seguido>Angel_4897</seguido>
     </seguidos>
   </usuario>
 
   <usuario>
-  <nombre>Juan</nombre>
-  <matricula>234567</matricula>
-  <password>juan123</password>
-  <imagen>../imagenes/juanperfil.jpg</imagen>
-  <imagenportada>../imagenes/juanportada.jpg</imagenportada>
-  <seguidores>
-      <seguidor>nombre del usuario</seguidor>
-      <seguidor>nombre del usuario</seguidor>
-      <seguidor>nombre del usuario</seguidor>
-  </seguidores>
-  <seguidos>
-      <seguido>nombre del usuario</seguido>
-      <seguido>nombre del usuario</seguido>
-  </seguidos>
+    <nombre>Eren Jaeger</nombre>
+    <matricula>zS24012245</matricula>
+    <password>eren123</password>
+    <imagen>../imagenes/erenjaeger.jpg</imagen>
+    <imagenportada>../imagenes/erenjaegerportada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Juan</seguidor>
+      <seguidor>Mikasa_Ackerman</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Armin_Arlert</seguido>
+      <seguido>Juan</seguido>
+    </seguidos>
+  </usuario>
 
-    
+  <usuario>
+    <nombre>Daniel_48689</nombre>
+    <matricula>zS24013698</matricula>
+    <password>dan12345</password>
+    <imagen>../imagenes/daniel_48689.jpg</imagen>
+    <imagenportada>../imagenes/daniel_48689portada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Cris_834</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Juan</seguido>
+      <seguido>Sebas_773</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Jorge_548</nombre>
+    <matricula>zS23015548</matricula>
+    <password>jorgepass</password>
+    <imagen>../imagenes/jorge_548.jpg</imagen>
+    <imagenportada>../imagenes/jorge_548portada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Juan</seguidor>
+      <seguidor>Mar_4897</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Juan</seguido>
+      <seguido>Matias_486</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Sebas_773</nombre>
+    <matricula>zS24018773</matricula>
+    <password>sebasfeuv</password>
+    <imagen>../imagenes/sebas_773.jpg</imagen>
+    <imagenportada>../imagenes/sebas_773portada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Daniel_48689</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Juan</seguido>
+      <seguido>Max_477</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Angel_4897</nombre>
+    <matricula>zS23014897</matricula>
+    <password>angeluv7</password>
+    <imagen>../imagenes/angel_4897.jpg</imagen>
+    <imagenportada>../imagenes/angel_4897portada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Juan</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Mar_4897</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Cris_834</nombre>
+    <matricula>zS24019834</matricula>
+    <password>crislinux</password>
+    <imagen>../imagenes/cris_834.jpg</imagen>
+    <imagenportada>../imagenes/cris_834portada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Josue_34</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Daniel_48689</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Mar_4897</nombre>
+    <matricula>zS24011142</matricula>
+    <password>marimar12</password>
+    <imagen>../imagenes/mar_4897.jpg</imagen>
+    <imagenportada>../imagenes/mar_4897portada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Angel_4897</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Jorge_548</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Max_477</nombre>
+    <matricula>zS23019477</matricula>
+    <password>maximo99</password>
+    <imagen>../imagenes/max_477.jpg</imagen>
+    <imagenportada>../imagenes/max_477portada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Sebas_773</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Matias_486</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Matias_486</nombre>
+    <matricula>zS24016486</matricula>
+    <password>matute123</password>
+    <imagen>../imagenes/matias_486.jpg</imagen>
+    <imagenportada>../imagenes/matias_486portada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Jorge_548</seguidor>
+      <seguidor>Max_477</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Jorge_548</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Josue_34</nombre>
+    <matricula>zS23011534</matricula>
+    <password>josueuv20</password>
+    <imagen>../imagenes/josue_34.jpg</imagen>
+    <imagenportada>../imagenes/josue_34portada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Carlos_Iglesias</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Cris_834</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Carlos_Iglesias</nombre>
+    <matricula>zS24019200</matricula>
+    <password>carlosig1</password>
+    <imagen>../imagenes/carlos_iglesias.jpg</imagen>
+    <imagenportada>../imagenes/carlos_iglesiasportada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Rene_Hernandez</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Josue_34</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Rene_Hernandez</nombre>
+    <matricula>zS22019445</matricula>
+    <password>reneadmin</password>
+    <imagen>../imagenes/rene_hernandez.jpg</imagen>
+    <imagenportada>../imagenes/rene_hernandezportada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Marianita_Chuchita</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Carlos_Iglesias</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Marianita_Chuchita</nombre>
+    <matricula>zS19012234</matricula>
+    <password>docenteuv26</password>
+    <imagen>../imagenes/marianita_chuchita.jpg</imagen>
+    <imagenportada>../imagenes/marianita_chuchitaportada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Alejandro_Gomez</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Rene_Hernandez</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Alejandro_Gomez</nombre>
+    <matricula>zS24015521</matricula>
+    <password>alexg2024</password>
+    <imagen>../imagenes/alejandro_gomez.jpg</imagen>
+    <imagenportada>../imagenes/alejandro_gomezportada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Fernanda_Ruiz</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Marianita_Chuchita</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Fernanda_Ruiz</nombre>
+    <matricula>zS24017732</matricula>
+    <password>fer_ruiz9</password>
+    <imagen>../imagenes/fernanda_ruiz.jpg</imagen>
+    <imagenportada>../imagenes/fernanda_ruizportada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Luis_Morales</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Alejandro_Gomez</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Luis_Morales</nombre>
+    <matricula>zS23018841</matricula>
+    <password>luismor77</password>
+    <imagen>../imagenes/lu_morales.jpg</imagen>
+    <imagenportada>../imagenes/lu_moralesportada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Camila_Torres</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Fernanda_Ruiz</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Camila_Torres</nombre>
+    <matricula>zS24019231</matricula>
+    <password>cami_t2026</password>
+    <imagen>../imagenes/camila_torres.jpg</imagen>
+    <imagenportada>../imagenes/camila_torresportada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Rodrigo_Perez</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Luis_Morales</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Rodrigo_Perez</nombre>
+    <matricula>zS23014412</matricula>
+    <password>rodri_p12</password>
+    <imagen>../imagenes/rodrigo_perez.jpg</imagen>
+    <imagenportada>../imagenes/rodrigo_perezportada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Valeria_Silva</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Camila_Torres</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Valeria_Silva</nombre>
+    <matricula>zS24012290</matricula>
+    <password>val_silva4</password>
+    <imagen>../imagenes/valeria_silva.jpg</imagen>
+    <imagenportada>../imagenes/valeria_silvaportada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Diego_Herrera</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Rodrigo_Perez</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Diego_Herrera</nombre>
+    <matricula>zS24016634</matricula>
+    <password>dieguito1</password>
+    <imagen>../imagenes/diego_herrera.jpg</imagen>
+    <imagenportada>../imagenes/diego_herreraportada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Natalia_Cruz</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Valeria_Silva</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Natalia_Cruz</nombre>
+    <matricula>zS23017721</matricula>
+    <password>nat_cruz88</password>
+    <imagen>../imagenes/natalia_cruz.jpg</imagen>
+    <imagenportada>../imagenes/natalia_cruzportada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Ricardo_Mendez</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Diego_Herrera</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Ricardo_Mendez</nombre>
+    <matricula>zS24011249</matricula>
+    <password>ricky_men</password>
+    <imagen>../imagenes/ricardo_mendez.jpg</imagen>
+    <imagenportada>../imagenes/ricardo_mendezportada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Sofia_Castro</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Natalia_Cruz</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Sofia_Castro</nombre>
+    <matricula>zS24016621</matricula>
+    <password>sofi_c123</password>
+    <imagen>../imagenes/sofia_castro.jpg</imagen>
+    <imagenportada>../imagenes/sofia_castroportada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Gabriel_Maldonado</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Ricardo_Mendez</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Gabriel_Maldonado</nombre>
+    <matricula>zS23013349</matricula>
+    <password>gabo_uv26</password>
+    <imagen>../imagenes/gabriel_maldonado.jpg</imagen>
+    <imagenportada>../imagenes/gabriel_maldonadoportada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Sofia_Castro</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Sofia_Castro</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Javier_Luna</nombre>
+    <matricula>zS24018890</matricula>
+    <password>javi_luna3</password>
+    <imagen>../imagenes/javier_luna.jpg</imagen>
+    <imagenportada>../imagenes/javier_lunaportada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Elena_Vazquez</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Elena_Vazquez</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Elena_Vazquez</nombre>
+    <matricula>zS23012211</matricula>
+    <password>elena_vaz</password>
+    <imagen>../imagenes/elena_vazquez.jpg</imagen>
+    <imagenportada>../imagenes/elena_vazquezportada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Javier_Luna</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Javier_Luna</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Mauricio_Flores</nombre>
+    <matricula>zS24014455</matricula>
+    <password>mauri_f12</password>
+    <imagen>../imagenes/mauricio_flores.jpg</imagen>
+    <imagenportada>../imagenes/mauricio_floresportada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Diana_Patricio</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Diana_Patricio</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Diana_Patricio</nombre>
+    <matricula>zS24019900</matricula>
+    <password>diana_p99</password>
+    <imagen>../imagenes/diana_patricio.jpg</imagen>
+    <imagenportada>../imagenes/diana_patricioportada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Mauricio_Flores</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Mauricio_Flores</seguido>
+    </seguidos>
+  </usuario>
+
+  <usuario>
+    <nombre>Arturo_Jimenez</nombre>
+    <matricula>zS23018872</matricula>
+    <password>artur_jim</password>
+    <imagen>../imagenes/arturo_jimenez.jpg</imagen>
+    <imagenportada>../imagenes/arturo_jimenezportada.jpg</imagenportada>
+    <seguidores>
+      <seguidor>Juan</seguidor>
+    </seguidores>
+    <seguidos>
+      <seguido>Jorge_548</seguido>
+    </seguidos>
   </usuario>
 </usuarios>

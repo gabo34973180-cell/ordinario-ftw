@@ -80,3 +80,32 @@ if (txtBuscarPerfil) {
         buscadorPerfiles.iniciarBusquedaPerfiles(e.target.value);
     });
 }
+
+
+
+
+document.addEventListener("click", (e) => {
+    const panelNotificaciones = document.getElementById("panel-notificaciones"); 
+    const panelConfiguracion = document.getElementById("panel-configuracion");
+    
+    const listaPerfiles = document.getElementById("listarPerfiles");
+    const txtBuscarPerfil = document.getElementById("txtBuscarPerfil");
+
+    if (panelNotificaciones && panelNotificaciones.style.display === "block") {
+        if (!panelNotificaciones.contains(e.target) && e.target.id !== "imgNotificaciones") {
+            panelNotificaciones.style.display = "none";
+        }
+    }
+
+    if (panelConfiguracion && panelConfiguracion.style.display === "block") {
+        if (!panelConfiguracion.contains(e.target) && e.target.id !== "imgConfiguracion") {
+            panelConfiguracion.style.display = "none";
+        }
+    }
+
+    if (listaPerfiles && listaPerfiles.innerHTML !== "") {
+        if (!listaPerfiles.contains(e.target) && e.target !== txtBuscarPerfil) {
+            listaPerfiles.innerHTML = ""; 
+        }
+    }
+});

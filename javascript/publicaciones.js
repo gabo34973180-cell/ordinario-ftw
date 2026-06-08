@@ -68,8 +68,6 @@ function cargarPublicacionesPanel(publicacionesXml){
             }
         );
 
-
-        
     }
 }
 

@@ -6,16 +6,16 @@
     align-items: center;    
 }
 
-
 .panel-publicacion {
     width: 90%;
-    max-width: 600px; 
+    max-width: 800px; 
     background-color: white;
     border-radius: 12px;
     padding: 20px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12);
     border: 1px solid #ddd;
 }
+
 
 .panel-publicacion h3 {
     font-size: 18px;

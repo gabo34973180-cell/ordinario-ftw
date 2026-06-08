@@ -1,99 +1,213 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <grupos>
+    <!-- Grupo 1: FEI -->
     <grupo>
-        <nombre>Grupo 1</nombre>
-        <descripcion>Descripcion del grupo 1</descripcion>
+        <nombre>FEI</nombre>
+        <descripcion>Facultad de Estadística e Informática - Comunidad General</descripcion>
         <imagengrupo>../imagenes/grupo1.jpg</imagengrupo>
         <miembros>
-            <miembro>matricula</miembro>
-            <miembro>matricula</miembro>
+            <miembro>zS24019843</miembro>
+            <miembro>zS24013698</miembro>
+            <miembro>zS23015548</miembro>
+            <miembro>zS24018773</miembro>
+            <miembro>zS19012234</miembro>
         </miembros>
         <publicaciones>
             <publicacion>
-                <titulo>Publicacion 1</titulo>
-                <usuario>nombre del Usuario</usuario>
-                <contenido>Atención a todos los entusiastas de la ciberseguridad! Este jueves tendremos un taller de 'Introducción a Redes Seguras' en el auditorio de la facultad. No es necesario tener conocimientos avanzados, solo traer tu laptop con alguna distro de Linux (preferentemente Alpine o Ubuntu) y muchas ganas de aprender. Vamos a realizar una práctica real de configuración de servidores Nginx y cómo protegerlos de ataques básicos</contenido>
+                <titulo>Atencion</titulo>
+                <usuario>Juan</usuario>
+                <contenido>¡Atención a todos los entusiastas de la ciberseguridad! Este jueves tendremos un taller de 'Introducción a Redes Seguras' en el auditorio de la facultad. No es necesario tener conocimientos avanzados, solo traer tu laptop con alguna distro de Linux (preferentemente Alpine o Ubuntu) y muchas ganas de aprender. Vamos a realizar una práctica real de configuración de servidores Nginx y cómo protegerlos de ataques básicos.</contenido>
                 <imagen-pg></imagen-pg>
-                <fecha>2024-06-01</fecha>
+                <fecha>2026-06-01</fecha>
                 <reacciones>
-                    <meencanta>Usuario 2</meencanta>
-                    <meencanta>Usuario 3</meencanta>
+                    <meencanta>Daniel_48689</meencanta>
+                    <meencanta>Jorge_548</meencanta>
+                    <meencanta>Sebas_773</meencanta>
+                    <meencanta>Angel_4897</meencanta>
                 </reacciones>
                 <comentarios>
                     <comentario>
-                        <cmtusuario>Usuario 2</cmtusuario>
-                        <texto>comentario 2</texto>
+                        <cmtusuario>Jorge_548</cmtusuario>
+                        <texto>Excelente iniciativa, por allá nos vemos con el equipo completo.</texto>
+                    </comentario>
+                    <comentario>
+                        <cmtusuario>Sebas_773</cmtusuario>
+                        <texto>¿Se requiere llevar el entorno virtualizado previamente configurado?</texto>
                     </comentario>
                 </comentarios>
             </publicacion>
-
             <publicacion>
-                <titulo>Publicacion 2</titulo>
-                <usuario>nombre del usuario</usuario>
-                <contenido>Contenido de la publicacion 2</contenido>
-                <imagen-pg>../imagenes/publicacion.webp</imagen-pg>
-                <fecha>2024-06-02</fecha>
+                <titulo>Aviso de Tutorías</titulo>
+                <usuario>Marianita_Chuchita</usuario>
+                <contenido>Se les recuerda realizar los ejercicios prácticos de evaluación de proyectos en la plataforma antes del cierre del módulo.</contenido>
+                <imagen-pg>../imagenes/pg_grupo1_2.jpg</imagen-pg>
+                <fecha>2026-06-02</fecha>
                 <reacciones>
-                    <meencanta>Usuario 2</meencanta>
-                    <meencanta>Usuario 3</meencanta>
+                    <meencanta>Rene_Hernandez</meencanta>
+                    <meencanta>Alejandro_Gomez</meencanta>
                 </reacciones>
                 <comentarios>
                     <comentario>
-                        <cmtusuario>Usuario 2</cmtusuario>
-                        <texto>comentario 2</texto>
+                        <cmtusuario>Rene_Hernandez</cmtusuario>
+                        <texto>Entendido, ya quedó arriba mi entrega profesora.</texto>
                     </comentario>
                 </comentarios>
             </publicacion>
         </publicaciones>
     </grupo>
+
+    <!-- Grupo 2: Linuxeros -->
     <grupo>
-        <nombre>Grupo 2</nombre>
-        <descripcion>Descripcion del grupo 2</descripcion>
-        <imagengrupo>../imagenes/grupo1.jpg</imagengrupo>
+        <nombre>Linuxeros</nombre>
+        <descripcion>Comunidad de Software Libre y administración de servidores en Linux</descripcion>
+        <imagengrupo>../imagenes/grupo2.jpg</imagengrupo>
         <miembros>
-            <miembro>matricula</miembro>
-            <miembro>matricula</miembro>
+            <miembro>zS24018773</miembro>
+            <miembro>zS24019834</miembro>
+            <miembro>zS23011534</miembro>
         </miembros>
         <publicaciones>
             <publicacion>
-                <titulo>Publicacion 1</titulo>
-                <usuario>nombre del Usuario</usuario>
-                <contenido>Contenido de la publicacion 1</contenido>
-                <imagen-pg>../imagenes/meencanta.jpg</imagen-pg>
-                <fecha>2024-06-01</fecha>
+                <titulo>Error con Prosody</titulo>
+                <usuario>Cris_834</usuario>
+                <contenido>¿Alguien con experiencia en entornos cifrados? Tengo fallas de negociación de encriptación en el chat local.</contenido>
+                <imagen-pg></imagen-pg>
+                <fecha>2026-06-03</fecha>
                 <reacciones>
-                    <meencanta>Usuario 2</meencanta>
-                    <meencanta>Usuario 3</meencanta>
+                    <meencanta>Sebas_773</meencanta>
+                    <meencanta>Gabriel_Maldonado</meencanta>
                 </reacciones>
                 <comentarios>
                     <comentario>
-                        <cmtusuario>Usuario 2</cmtusuario>
-                        <texto>comentario 2</texto>
+                        <cmtusuario>Gabriel_Maldonado</cmtusuario>
+                        <texto>Desactiva temporalmente el SSL obligatorio en la sintaxis de prosody.cfg.lua.</texto>
                     </comentario>
                 </comentarios>
-
-            </publicacion>
-
-            <publicacion>
-                <titulo>Publicacion 2</titulo>
-                <usuario>nombre del usuario</usuario>
-                <contenido>Contenido de la publicacion 2</contenido>
-                <imagen-pg>../imagenes/publicacion.webp</imagen-pg>
-                <fecha>2024-06-02</fecha>
-
-                <reacciones>
-                    <meencanta>Usuario 2</meencanta>
-                    <meencanta>Usuario 3</meencanta>
-                </reacciones>
-                <comentarios>
-                    <comentario>
-                        <cmtusuario>Usuario 2</cmtusuario>
-                        <texto>comentario 2</texto>
-                    </comentario>
-                </comentarios>
-
             </publicacion>
         </publicaciones>
     </grupo>
-    
+
+    <!-- Grupo 3: Windows se no actualizo -->
+    <grupo>
+        <nombre>Windows se no actualizo</nombre>
+        <descripcion>Solo soluciones de administración de servicios bajo entornos Windows Server</descripcion>
+        <imagengrupo>../imagenes/grupo3.jpg</imagengrupo>
+        <miembros>
+            <miembro>zS24013698</miembro>
+            <miembro>zS24016486</miembro>
+            <miembro>zS23019477</miembro>
+        </miembros>
+        <publicaciones>
+            <publicacion>
+                <titulo>Bloqueo de IIS</titulo>
+                <usuario>Daniel_48689</usuario>
+                <contenido>El servicio de Internet Information Services se detiene inesperadamente al levantar el puerto 8080.</contenido>
+                <imagen-pg>../imagenes/pg_grupo3_1.jpg</imagen-pg>
+                <fecha>2026-06-04</fecha>
+                <reacciones>
+                    <meencanta>Max_477</meencanta>
+                    <meencanta>Matias_486</meencanta>
+                </reacciones>
+                <comentarios>
+                    <comentario>
+                        <cmtusuario>Matias_486</cmtusuario>
+                        <texto>Seguro tienes Apache corriendo en segundo plano ocupando el mismo socket.</texto>
+                    </comentario>
+                </comentarios>
+            </publicacion>
+        </publicaciones>
+    </grupo>
+
+    <!-- Grupo 4: Comedor FEI -->
+    <grupo>
+        <nombre>Comedor FEI</nombre>
+        <descripcion>Menús diarios, horarios y avisos del espacio de cafetería universitaria</descripcion>
+        <imagengrupo>../imagenes/grupo4.jpg</imagengrupo>
+        <miembros>
+            <miembro>zS23014897</miembro>
+            <miembro>zS24011142</miembro>
+            <miembro>zS24019843</miembro>
+        </miembros>
+        <publicaciones>
+            <publicacion>
+                <titulo>Menú del día</titulo>
+                <usuario>Angel_4897</usuario>
+                <contenido>Ya abrieron, hoy hay paquete ejecutivo económico corrida completa hasta las 4:00 PM.</contenido>
+                <imagen-pg></imagen-pg>
+                <fecha>2026-06-05</fecha>
+                <reacciones>
+                    <meencanta>Mar_4897</meencanta>
+                    <meencanta>Juan</meencanta>
+                </reacciones>
+                <comentarios>
+                    <comentario>
+                        <cmtusuario>Mar_4897</cmtusuario>
+                        <texto>Gracias por el aviso, saliendo de clase pasamos para allá.</texto>
+                    </comentario>
+                </comentarios>
+            </publicacion>
+        </publicaciones>
+    </grupo>
+
+    <!-- Grupo 5: Hardware e Intercambio Académico -->
+    <grupo>
+        <nombre>Hardware e Intercambio Académico</nombre>
+        <descripcion>Compra, venta y actualización de computadoras y componentes para sistemas</descripcion>
+        <imagengrupo>../imagenes/grupo5.jpg</imagengrupo>
+        <miembros>
+            <miembro>zS23011534</miembro>
+            <miembro>zS24019200</miembro>
+            <miembro>zS24011249</miembro>
+        </miembros>
+        <publicaciones>
+            <publicacion>
+                <titulo>Upgrade Laptop</titulo>
+                <usuario>Josue_34</usuario>
+                <contenido>Pongo a la venta mi HP Victus con i5 y 16GB de RAM ideal para NetBeans o Visual Studio. Precio negociable para estudiantes de la UV.</contenido>
+                <imagen-pg>../imagenes/pg_grupo5_1.jpg</imagen-pg>
+                <fecha>2026-06-05</fecha>
+                <reacciones>
+                    <meencanta>Carlos_Iglesias</meencanta>
+                    <meencanta>Ricardo_Mendez</meencanta>
+                </reacciones>
+                <comentarios>
+                    <comentario>
+                        <cmtusuario>Carlos_Iglesias</cmtusuario>
+                        <texto>Te mando mensaje privado, me interesa bastante para mis laboratorios.</texto>
+                    </comentario>
+                </comentarios>
+            </publicacion>
+        </publicaciones>
+    </grupo>
+
+    <!-- Grupo 6: Comunidad UX -->
+    <grupo>
+        <nombre>Comunidad UX</nombre>
+        <descripcion>Espacio de retroalimentación de interfaces y Diseño Centrado en el Usuario</descripcion>
+        <imagengrupo>../imagenes/grupo6.jpg</imagengrupo>
+        <miembros>
+            <miembro>zS24019200</miembro>
+            <miembro>zS24016621</miembro>
+            <miembro>zS23013349</miembro>
+        </miembros>
+        <publicaciones>
+            <publicacion>
+                <titulo>Evaluación Heurística</titulo>
+                <usuario>Sofia_Castro</usuario>
+                <contenido>Comparto el avance de las guías de evaluación SUS que aplicaremos para validar el flujo interactivo de los paneles.</contenido>
+                <imagen-pg></imagen-pg>
+                <fecha>2026-06-08</fecha>
+                <reacciones>
+                    <meencanta>Gabriel_Maldonado</meencanta>
+                    <meencanta>Juan</meencanta>
+                </reacciones>
+                <comentarios>
+                    <comentario>
+                        <cmtusuario>Gabriel_Maldonado</cmtusuario>
+                        <texto>Quedó excelente la estructura de la guía para sustentar los cambios del Layout.</texto>
+                    </comentario>
+                </comentarios>
+            </publicacion>
+        </publicaciones>
+    </grupo>
 </grupos>

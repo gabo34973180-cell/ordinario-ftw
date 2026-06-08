@@ -20,27 +20,42 @@ header {
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-.menupaginas{
+
+.menupaginas {
     width: 90%;
     max-width: 1200px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.menupaginas li:first-child {
+    flex: 0 1 auto;
+}
+
+
+.menupaginas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menupaginas li:has(input[type="text"]), 
+.menupaginas li:has(.imgs) {
+    display: flex;
+    align-items: center;
 }
 
 .menupaginas li input[type="text"] {
-    width: 300px;
+    width: 200px; 
     padding: 10px 20px;
     border-radius: 25px;
     border: none;
     outline: none;
-}
-
-#menupaginas{
-    display: flex;
-    align-items: center;
+    margin-right: 10px;
 }
 
 .menupaginas li img.imgs {
@@ -48,8 +63,18 @@ header {
     height: 35px;
     object-fit: contain;
     cursor: pointer;
+    margin-left: 15px; 
     transition: transform 0.2s ease;
 }
+
+.menupaginas {
+    display: flex;
+}
+
+.menupaginas li:not(:first-child) {
+    justify-content: flex-end;
+}
+
 
 #imlogo {
     width: 50px;
@@ -129,23 +154,18 @@ header {
 .config-item {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-
+    align-items: center; 
+    gap: 15px; 
     padding: 18px 15px;
-
     border-bottom: 1px solid #eee;
 }
 
 .config-item button {
     background-color: #78be20;
     color: white;
-
     border: none;
-
     padding: 8px 15px;
-
     border-radius: 20px;
-
     cursor: pointer;
 }
 
@@ -157,10 +177,11 @@ header {
 
 .switch {
     position: relative;
-    display: inline-block;
-
+    display: inline-flex;
+    align-items: center;
     width: 50px;
     height: 24px;
+    margin: 0;
 }
 
 .switch input {
@@ -309,4 +330,230 @@ input:checked + .slider:before {
 
 .dark-mode #perfil * {
     color: white !important;
+}
+
+.popup-info {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 450px;
+    max-height: 70vh;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    z-index: 10000;
+    padding: 20px;
+    overflow-y: auto;
+    font-family: Arial, sans-serif;
+    animation: popupFadeIn 0.25s ease-out;
+}
+
+@keyframes popupFadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -45%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.popup-info h4 {
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #78be20; 
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.popup-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.popup-info ul li {
+    padding: 12px 15px;
+    border-bottom: 1px solid #f0f2f5;
+    font-size: 15px;
+    color: #444444;
+}
+
+.popup-info ul li:last-child {
+    border-bottom: none;
+}
+
+.comentario-item {
+    background-color: #f0f2f5;
+    padding: 12px 15px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    border-bottom: none !important; 
+}
+
+.comentario-item strong {
+    display: block;
+    font-size: 14px;
+    color: #111111;
+    margin-bottom: 4px;
+}
+
+.comentario-item p {
+    font-size: 14px;
+    color: #333333;
+    line-height: 1.4;
+    margin: 0;
+}
+
+
+
+.dark-mode .popup-info {
+    background-color: #242526;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.dark-mode .popup-info h4 {
+    color: #ffffff;
+    border-bottom-color: #5f9918; 
+}
+
+.dark-mode .popup-info ul li {
+    border-bottom-color: #3a3b3c;
+    color: #e4e6eb;
+}
+
+.dark-mode .comentario-item {
+    background-color: #3a3b3c;
+}
+
+.dark-mode .comentario-item strong {
+    color: #ffffff;
+}
+
+.dark-mode .comentario-item p {
+    color: #e4e6eb;
+}
+
+
+footer {
+    width: 100%;
+    min-height: 50px;
+    background-color: #78be20; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+    z-index: 1000;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.contenido-footer {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.contenido-footer p {
+    font-size: 13px;
+    color: #ffffff !important; 
+    margin: 0;
+}
+
+.contenido-footer p strong {
+    color: #ffffff !important;
+}
+
+
+.dark-mode footer {
+    background-color: #5f9918; 
+    border-top: 1px solid #3a3b3c;
+}
+
+
+#listarPerfiles {
+    width: 90%;
+    max-width: 800px; 
+    margin: 20px auto; 
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px; 
+}
+
+
+.panel-personas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 15px 25px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    animation: fadeInResult 0.2s ease-in-out;
+}
+
+@keyframes fadeInResult {
+    from { opacity: 0; transform: translateY(-5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+.info-persona-texto h3 {
+    font-size: 16px;
+    color: #1e293b;
+    margin: 0;
+    font-weight: 600;
+}
+
+
+.btn-ver-perfil {
+    background-color: #78be20; 
+    color: #ffffff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-ver-perfil:hover {
+    background-color: #5f9918; 
+    transform: scale(1.03);
+}
+
+.btn-ver-perfil:active {
+    transform: scale(0.98);
+}
+
+
+.dark-mode .panel-personas {
+    background-color: #242526;
+    border-color: #3a3b3c;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .info-persona-texto h3 {
+    color: #ffffff !important;
+}
+
+.dark-mode .btn-ver-perfil {
+    background-color: #5f9918;
+}
+
+.dark-mode .btn-ver-perfil:hover {
+    background-color: #4a7a13;
 }

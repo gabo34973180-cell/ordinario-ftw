@@ -1,23 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <notificaciones>
+    <!-- Notificaciones dirigidas a Juan -->
     <notificacion id="n1">
-        <usuario>Usuario 2</usuario>
+        <usuario>Daniel_48689</usuario>
         <tipo>Me Encanta</tipo>
-        <fecha>2024-06-20</fecha>
+        <fecha>2026-06-01</fecha>
         <leida>false</leida>
     </notificacion>
 
     <notificacion id="n2">
-        <usuario>Usuario 3</usuario>
+        <usuario>Jorge_548</usuario>
         <tipo>Comentario</tipo>
-        <fecha>2024-06-20</fecha>
+        <fecha>2026-06-01</fecha>
         <leida>false</leida>
     </notificacion>
 
     <notificacion id="n3">
-        <usuario>Usuario 4</usuario>
-        <tipo>Nuevo Seguidor</tipo>
-        <fecha>2024-06-20</fecha>
+        <usuario>Sebas_773</usuario>
+        <tipo>Comentario</tipo>
+        <fecha>2026-06-01</fecha>
         <leida>false</leida>
-    </notificacion> 
+    </notificacion>
+
+    <notificacion id="n4">
+        <usuario>Fernanda_Ruiz</usuario>
+        <tipo>Me Encanta</tipo>
+        <fecha>2026-06-02</fecha>
+        <leida>false</leida>
+    </notificacion>
+
+    <notificacion id="n5">
+        <usuario>Luis_Morales</usuario>
+        <tipo>Comentario</tipo>
+        <fecha>2026-06-02</fecha>
+        <leida>false</leida>
+    </notificacion>
+
+    <notificacion id="n6">
+        <usuario>Camila_Torres</usuario>
+        <tipo>Comentario</tipo>
+        <fecha>2026-06-02</fecha>
+        <leida>true</leida>
+    </notificacion>
+
+    <notificacion id="n7">
+        <usuario>Arturo_Jimenez</usuario>
+        <tipo>Nuevo Seguidor</tipo>
+        <fecha>2026-06-08</fecha>
+        <leida>true</leida>
+    </notificacion>
+
+    <!-- Notificaciones cruzadas de interacciones en la comunidad -->
+    <notificacion id="n8">
+        <usuario>Gabriel_Maldonado</usuario>
+        <tipo>Comentario</tipo>
+        <fecha>2026-06-03</fecha>
+        <leida>false</leida>
+    </notificacion>
+
+    <notificacion id="n9">
+        <usuario>Cris_834</usuario>
+        <tipo>Me Encanta</tipo>
+        <fecha>2026-06-03</fecha>
+        <leida>false</leida>
+    </notificacion>
+
+    <notificacion id="n10">
+        <usuario>Carlos_Iglesias</usuario>
+        <tipo>Nuevo Seguidor</tipo>
+        <fecha>2026-06-04</fecha>
+        <leida>false</leida>
+    </notificacion>
+
+    <notificacion id="n11">
+        <usuario>Rene_Hernandez</usuario>
+        <tipo>Comentario</tipo>
+        <fecha>2026-06-04</fecha>
+        <leida>true</leida>
+    </notificacion>
+
+    <notificacion id="n12">
+        <usuario>Diego_Herrera</usuario>
+        <tipo>Comentario</tipo>
+        <fecha>2026-06-04</fecha>
+        <leida>false</leida>
+    </notificacion>
+
+    <notificacion id="n13">
+        <usuario>Valeria_Silva</usuario>
+        <tipo>Me Encanta</tipo>
+        <fecha>2026-06-07</fecha>
+        <leida>true</leida>
+    </notificacion>
+
+    <notificacion id="n14">
+        <usuario>Sofia_Castro</usuario>
+        <tipo>Nuevo Seguidor</tipo>
+        <fecha>2026-06-07</fecha>
+        <leida>false</leida>
+    </notificacion>
+
+    <notificacion id="n15">
+        <usuario>Marianita_Chuchita</usuario>
+        <tipo>Comentario</tipo>
+        <fecha>2026-06-08</fecha>
+        <leida>false</leida>
+    </notificacion>
 </notificaciones>

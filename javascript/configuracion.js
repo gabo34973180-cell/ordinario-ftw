@@ -18,7 +18,7 @@ function crearPanelConfiguracion() {
                 <h3>Configuracion</h3>
             </div>
 
-            <div class="configuracion-item">
+            <div class="config-item">
                 <span>Modo Oscuro</span>
 
                 <label class="switch">

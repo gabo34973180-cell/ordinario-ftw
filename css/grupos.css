@@ -1,5 +1,4 @@
 
-
 main {
     display: flex;
     justify-content: center;
@@ -115,6 +114,9 @@ aside input[type="text"] {
     height: 25px !important;
     object-fit: contain;
     cursor: pointer;
+}
+.dark-mode main {
+    background-color: #18191a;
 }
 
 

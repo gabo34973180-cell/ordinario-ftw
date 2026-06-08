@@ -18,9 +18,10 @@ main {
     gap: 30px;
     padding: 20px;
     width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
 }
 
-/* --- COLUMNA IZQUIERDA: BUSCADOR --- */
 aside:first-child {
     width: 350px;
     display: flex;
@@ -60,7 +61,8 @@ aside:first-child {
 
 .todoperfil {
     flex-grow: 1;
-    max-width: 800px;
+    width: 100%;
+    max-width: 800px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,7 +134,7 @@ aside:first-child {
 
 .contenido {
     width: 100%;
-    max-width: 600px; 
+    max-width: 800px; 
     display: flex;
     flex-direction: column;
     gap: 20px;

@@ -1,54 +1,794 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <publicaciones>
+    <!-- Publicación 1 -->
     <publicacion id="p1">
         <usuario>Juan</usuario>
         <descripcion>Descripción gráfica de mi estabilidad emocional después de ver el primer parcial de Redes... 🐧💻 (Al menos el café de la cafetería sigue estando 10/10). ¿Quién más está en las mismas o ya se dieron de baja de la vida?</descripcion>
-        <fecha>2024-06-20</fecha>
-        <imagen></imagen>
+        <fecha>2026-06-01</fecha>
+        <imagen>../imagenes/publicacion1.jpg</imagen>
         <reacciones>
-             <meencanta>Usuario 2</meencanta>
-             <meencanta>Usuario 3</meencanta>
+            <meencanta>Daniel_48689</meencanta>
+            <meencanta>Jorge_548</meencanta>
+            <meencanta>Sebas_773</meencanta>
+            <meencanta>Angel_4897</meencanta>
+            <meencanta>Cris_834</meencanta>
+            <meencanta>Mar_4897</meencanta>
+            <meencanta>Max_477</meencanta>
+            <meencanta>Matias_486</meencanta>
+            <meencanta>Josue_34</meencanta>
+            <meencanta>Carlos_Iglesias</meencanta>
+            <meencanta>Rene_Hernandez</meencanta>
+            <meencanta>Alejandro_Gomez</meencanta>
         </reacciones>
         <comentarios>
-            <comentario>
-                <cmtusuario>Usuario 2</cmtusuario>
-                <texto>comentario 2</texto>
-            </comentario>
+            <comentario><cmtusuario>Jorge_548</cmtusuario><texto>No te preocupes amigo, yo saqué 4 y siento que gané la materia.</texto></comentario>
+            <comentario><cmtusuario>Sebas_773</cmtusuario><texto>¿El café cura la frustración de configurar direccionamiento IP estático? Pregunta seria.</texto></comentario>
+            <comentario><cmtusuario>Daniel_48689</cmtusuario><texto>Confirmo lo del café, lo único bueno de este lunes de exámenes.</texto></comentario>
+            <comentario><cmtusuario>Cris_834</cmtusuario><texto>Ese examen estuvo criminal, el profe se pasó con las preguntas abiertas.</texto></comentario>
+            <comentario><cmtusuario>Mar_4897</cmtusuario><texto>¿Alguien tiene las respuestas de la sección de subredes?</texto></comentario>
+            <comentario><cmtusuario>Max_477</cmtusuario><texto>Yo ya estoy pensando seriamente en vender mi laptop e irme a la aventura.</texto></comentario>
+            <comentario><cmtusuario>Matias_486</cmtusuario><texto>Examen 1 - Nosotros 0. A recuperarse en el segundo parcial.</texto></comentario>
+            <comentario><cmtusuario>Josue_34</cmtusuario><texto>Ánimo, todavía quedan los puntos de las prácticas en Ubuntu.</texto></comentario>
+            <comentario><cmtusuario>Carlos_Iglesias</cmtusuario><texto>¿Había examen hoy? Rayos, me equivoqué de semana.</texto></comentario>
+            <comentario><cmtusuario>Rene_Hernandez</cmtusuario><texto>Al menos no te tocó el examen de administración, ese sí fue un dolor.</texto></comentario>
+            <comentario><cmtusuario>Alejandro_Gomez</cmtusuario><texto>Pasen tips para subir el promedio antes de que termine el mes.</texto></comentario>
         </comentarios>
     </publicacion>
 
+    <!-- Publicación 2 -->
     <publicacion id="p2">
         <usuario>Juan</usuario>
         <descripcion>¡Llegó la semana de proyectos integradores! 📚 ¿Alguien sabe si la biblioteca de la facultad extenderá su horario o si hay algún cubículo disponible para trabajar en equipo hoy? Dejen sus tips de supervivencia en los comentarios. 👇</descripcion>
-        <fecha>2024-06-20</fecha>
-        <imagen></imagen>
+        <fecha>2026-06-02</fecha>
+        <imagen>../imagenes/publicacion2.jpg</imagen>
         <reacciones>
-             <meencanta>Usuario 2</meencanta>
-             <meencanta>Usuario 3</meencanta>
+            <meencanta>Eren Jaeger</meencanta>
+            <meencanta>Daniel_48689</meencanta>
+            <meencanta>Jorge_548</meencanta>
+            <meencanta>Sebas_773</meencanta>
+            <meencanta>Fernanda_Ruiz</meencanta>
+            <meencanta>Luis_Morales</meencanta>
+            <meencanta>Camila_Torres</meencanta>
+            <meencanta>Rodrigo_Perez</meencanta>
+            <meencanta>Valeria_Silva</meencanta>
+            <meencanta>Diego_Herrera</meencanta>
+            <meencanta>Natalia_Cruz</meencanta>
+            <meencanta>Arturo_Jimenez</meencanta>
         </reacciones>
         <comentarios>
-            <comentario>
-                <cmtusuario>Usuario 2</cmtusuario>
-                <texto>comentario 2</texto>
-            </comentario>
+            <comentario><cmtusuario>Fernanda_Ruiz</cmtusuario><texto>Ayer anunciaron que cierran a las 8 PM toda esta semana.</texto></comentario>
+            <comentario><cmtusuario>Luis_Morales</cmtusuario><texto>Los cubículos del fondo ya están apartados desde las 7 AM, busca en los laboratorios.</texto></comentario>
+            <comentario><cmtusuario>Camila_Torres</cmtusuario><texto>Traigan extensiones eléctricas porque nunca hay suficientes enchufes.</texto></comentario>
+            <comentario><cmtusuario>Rodrigo_Perez</cmtusuario><texto>Mi equipo y yo estamos trabajando en la cafetería, hay buen espacio.</texto></comentario>
+            <comentario><cmtusuario>Valeria_Silva</cmtusuario><texto>¡Mucho éxito a todos! Recuerden subir sus repositorios a GitHub a tiempo.</texto></comentario>
+            <comentario><cmtusuario>Diego_Herrera</cmtusuario><texto>No dejen las cosas para el final, el internet de la escuela va a colapsar el viernes.</texto></comentario>
+            <comentario><cmtusuario>Natalia_Cruz</cmtusuario><texto>¿Alguien del equipo 13 que me pase el enlace de la documentación?</texto></comentario>
+            <comentario><cmtusuario>Arturo_Jimenez</cmtusuario><texto>Tip de supervivencia: duerman al menos 4 horas antes de la presentación.</texto></comentario>
+            <comentario><cmtusuario>Eren Jaeger</cmtusuario><texto>Yo prefiero avanzar en casa, la escuela es un caos ahorita.</texto></comentario>
+            <comentario><cmtusuario>Daniel_48689</cmtusuario><texto>¿Alguien tiene cable de red de sobra? El Wi-Fi de la biblioteca está lento.</texto></comentario>
+            <comentario><cmtusuario>Jorge_548</cmtusuario><texto>En informática hay un aula libre si quieren intentar entrar.</texto></comentario>
         </comentarios>
     </publicacion>
 
+    <!-- Publicación 3 -->
     <publicacion id="p3">
         <usuario>Eren Jaeger</usuario>
-        <descripcion>Una cabra saltando desde lo mas alto </descripcion>
-        <fecha>2024-06-20</fecha>
-        <imagen>../imagenes/publicacion.webp</imagen>
+        <descripcion>Una cabra saltando desde lo mas alto, justo lo que necesito ver para desestresarme un poco de los diagramas de casos de uso.</descripcion>
+        <fecha>2026-06-02</fecha>
+        <imagen>../imagenes/publicacion3.jpg</imagen>
         <reacciones>
-             <meencanta>Usuario 2</meencanta>
-             <meencanta>Usuario 3</meencanta>
+            <meencanta>Juan</meencanta>
+            <meencanta>Daniel_48689</meencanta>
+            <meencanta>Jorge_548</meencanta>
+            <meencanta>Ricardo_Mendez</meencanta>
+            <meencanta>Sofia_Castro</meencanta>
+            <meencanta>Gabriel_Maldonado</meencanta>
+            <meencanta>Javier_Luna</meencanta>
+            <meencanta>Elena_Vazquez</meencanta>
+            <meencanta>Mauricio_Flores</meencanta>
+            <meencanta>Diana_Patricio</meencanta>
+            <meencanta>Arturo_Jimenez</meencanta>
         </reacciones>
         <comentarios>
-            <comentario>
-                <cmtusuario>Usuario 2</cmtusuario>
-                <texto>comentario 2</texto>
-            </comentario>
+            <comentario><cmtusuario>Juan</cmtusuario><texto>Esa imagen representa perfectamente mis ganas de saltar de la carrera de sistemas.</texto></comentario>
+            <comentario><cmtusuario>Gabriel_Maldonado</cmtusuario><texto>Buen fondo para recordar la fragilidad de nuestro código en producción.</texto></comentario>
+            <comentario><cmtusuario>Sofia_Castro</cmtusuario><texto>Jajaja, los diagramas de UML te están afectando seriamente Eren.</texto></comentario>
+            <comentario><cmtusuario>Ricardo_Mendez</cmtusuario><texto>Esa cabra domina las alturas mejor de lo que yo domino Java.</texto></comentario>
+            <comentario><cmtusuario>Javier_Luna</cmtusuario><texto>Excelente foto, ¿la tomaste tú o la bajaste de alguna práctica?</texto></comentario>
+            <comentario><cmtusuario>Elena_Vazquez</cmtusuario><texto>Se ve genial el contraste con el cielo oscuro de la montaña.</texto></comentario>
+            <comentario><cmtusuario>Mauricio_Flores</cmtusuario><texto>Representación de un desarrollador full-stack saltando de error en error.</texto></comentario>
+            <comentario><cmtusuario>Diana_Patricio</cmtusuario><texto>Ánimo equipo, ya casi terminamos la arquitectura del sistema.</texto></comentario>
+            <comentario><cmtusuario>Daniel_48689</cmtusuario><texto>UML es el verdadero enemigo del desarrollo ágil.</texto></comentario>
+            <comentario><cmtusuario>Jorge_548</cmtusuario><texto>Me encanta el dinamismo de la foto, muy descriptiva.</texto></comentario>
         </comentarios>
     </publicacion>
 
+    <!-- Publicación 4 -->
+    <publicacion id="p4">
+        <usuario>Josue_34</usuario>
+        <descripcion>¡Qué tal comunidad! Pongo a la venta mi laptop actual porque busco un upgrade para correr mejores máquinas virtuales y renderizado. Es una HP Victus con un i5 de 11ava generación y 16GB de RAM. Está impecable, ideal para los que están empezando en la carrera de sistemas y necesitan algo que no se trabe con el Visual Studio o NetBeans. El precio es negociable para estudiantes de la UV!</descripcion>
+        <fecha>2026-06-03</fecha>
+        <imagen>../imagenes/publicacion4.jpg</imagen>
+        <reacciones>
+            <meencanta>Carlos_Iglesias</meencanta>
+            <meencanta>Cris_834</meencanta>
+            <meencanta>Daniel_48689</meencanta>
+            <meencanta>Luis_Morales</meencanta>
+            <meencanta>Diego_Herrera</meencanta>
+            <meencanta>Ricardo_Mendez</meencanta>
+            <meencanta>Mauricio_Flores</meencanta>
+            <meencanta>Arturo_Jimenez</meencanta>
+            <meencanta>Sebas_773</meencanta>
+            <meencanta>Matias_486</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Carlos_Iglesias</cmtusuario><texto>Me interesa bastante, te mando mensaje directo para ver detalles del precio.</texto></comentario>
+            <comentario><cmtusuario>Cris_834</cmtusuario><texto>Doy fe de que esa laptop vuela corriendo distros de Linux de forma nativa.</texto></comentario>
+            <comentario><cmtusuario>Luis_Morales</cmtusuario><texto>¿Tiene tarjeta de video dedicada o solo la integrada del procesador?</texto></comentario>
+            <comentario><cmtusuario>Diego_Herrera</cmtusuario><texto>Excelente equipo para arrancar la carrera, los 16GB de RAM salvan vidas.</texto></comentario>
+            <comentario><cmtusuario>Ricardo_Mendez</cmtusuario><texto>¿Aceptas cambios por componentes de PC de escritorio o solo efectivo?</texto></comentario>
+            <comentario><cmtusuario>Mauricio_Flores</cmtusuario><texto>Si no la vendes de aquí al viernes me avisas, ando buscando algo similar.</texto></comentario>
+            <comentario><cmtusuario>Arturo_Jimenez</cmtusuario><texto>Precio para estudiantes de la FEI, tira paro hermano jaja.</texto></comentario>
+            <comentario><cmtusuario>Sebas_773</cmtusuario><texto>Está regalada con esa configuración de RAM, aprovechen.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 5 -->
+    <publicacion id="p5">
+        <usuario>Sebas_773</usuario>
+        <descripcion>Aviso rápido para la comunidad de entusiastas del software libre: ¡Mañana iniciamos el taller práctico de servidores seguros con Nginx y Ubuntu Server! Traigan su entorno virtualizado listo.</descripcion>
+        <fecha>2026-06-03</fecha>
+        <imagen></imagen>
+        <reacciones>
+            <meencanta>Daniel_48689</meencanta>
+            <meencanta>Cris_834</meencanta>
+            <meencanta>Jorge_548</meencanta>
+            <meencanta>Gabriel_Maldonado</meencanta>
+            <meencanta>Max_477</meencanta>
+            <meencanta>Matias_486</meencanta>
+            <meencanta>Elena_Vazquez</meencanta>
+            <meencanta>Javier_Luna</meencanta>
+            <meencanta>Juan</meencanta>
+            <meencanta>Rene_Hernandez</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Daniel_48689</cmtusuario><texto>¿Será en el laboratorio de redes o en las salas comunes?</texto></comentario>
+            <comentario><cmtusuario>Cris_834</cmtusuario><texto>¿Alpine Linux sirve o forzosamente tiene que ser Ubuntu?</texto></comentario>
+            <comentario><cmtusuario>Jorge_548</cmtusuario><texto>Ahí nos vemos, me urge entender la sintaxis del archivo de configuración.</texto></comentario>
+            <comentario><cmtusuario>Max_477</cmtusuario><texto>¡Excelente iniciativa! Hacen falta más talleres prácticos.</texto></comentario>
+            <comentario><cmtusuario>Matias_486</cmtusuario><texto>¿Se grabará la sesión para los que llevamos materia a esa hora?</texto></comentario>
+            <comentario><cmtusuario>Elena_Vazquez</cmtusuario><texto>¡Qué buen tema! Nos vemos mañana temprano.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 6 -->
+    <publicacion id="p6">
+        <usuario>Daniel_48689</usuario>
+        <descripcion>¿Alguien más está teniendo problemas con el contenedor de Docker para el proyecto de base de datos? No me conecta al puerto local de MySQL.</descripcion>
+        <fecha>2026-06-03</fecha>
+        <imagen>../imagenes/publicacion6.jpg</imagen>
+        <reacciones>
+            <meencanta>Juan</meencanta><meencanta>Sebas_773</meencanta><meencanta>Cris_834</meencanta><meencanta>Gabriel_Maldonado</meencanta><meencanta>Max_477</meencanta><meencanta>Javier_Luna</meencanta><meencanta>Ricardo_Mendez</meencanta><meencanta>Diego_Herrera</meencanta><meencanta>Sofia_Castro</meencanta><meencanta>Arturo_Jimenez</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Gabriel_Maldonado</cmtusuario><texto>Revisa el archivo docker-compose, seguro te faltó mapear los puertos correctamente.</texto></comentario>
+            <comentario><cmtusuario>Cris_834</cmtusuario><texto>A mí me pasó, limpia los volúmenes viejos antes de volver a levantar el contenedor.</texto></comentario>
+            <comentario><cmtusuario>Sebas_773</cmtusuario><texto>Prueba usando la ip de la red interna de Docker en lugar de localhost.</texto></comentario>
+            <comentario><cmtusuario>Sofia_Castro</cmtusuario><texto>Pasa el código del error para poder ayudarte mejor Dani.</texto></comentario>
+            <comentario><cmtusuario>Ricardo_Mendez</cmtusuario><texto>MySQL en contenedor a veces choca con el servicio local, apaga el local primero.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 7 -->
+    <publicacion id="p7">
+        <usuario>Jorge_548</usuario>
+        <descripcion>Compartiendo la publicación de Matias_486 sobre el evento de ciberseguridad. Va a estar buenísimo el taller del jueves en el auditorio.</descripcion>
+        <fecha>2026-06-04</fecha>
+        <imagen>../imagenes/publicacion7.jpg</imagen>
+        <reacciones>
+            <meencanta>Matias_486</meencanta><meencanta>Mar_4897</meencanta><meencanta>Angel_4897</meencanta><meencanta>Max_477</meencanta><meencanta>Juan</meencanta><meencanta>Sebas_773</meencanta><meencanta>Carlos_Iglesias</meencanta><meencanta>Rene_Hernandez</meencanta><meencanta>Luis_Morales</meencanta><meencanta>Camila_Torres</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Matias_486</cmtusuario><texto>Gracias por compartir Jorge, esperamos ver a toda la comunidad por allá.</texto></comentario>
+            <comentario><cmtusuario>Angel_4897</cmtusuario><texto>Me apunto, la parte de auditoría de redes me interesa bastante.</texto></comentario>
+            <comentario><cmtusuario>Mar_4897</cmtusuario><texto>¿Van a dar constancia de participación al terminar el taller?</texto></comentario>
+            <comentario><cmtusuario>Max_477</cmtusuario><texto>Lleguen temprano porque los lugares del auditorio vuelan.</texto></comentario>
+            <comentario><cmtusuario>Luis_Morales</cmtusuario><texto>¿Hay que llevar herramientas preinstaladas como Kali o Wireshark?</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 8 -->
+    <publicacion id="p8">
+        <usuario>Marianita_Chuchita</usuario>
+        <descripcion>Avisos para los alumnos de Economía y Sistemas: Ya están disponibles las lecturas complementarias en la plataforma institucional para el tema de evaluación de proyectos tecnológicos.</descripcion>
+        <fecha>2026-06-04</fecha>
+        <imagen>../imagenes/publicacion8.jpg</imagen>
+        <reacciones>
+            <meencanta>Rene_Hernandez</meencanta><meencanta>Alejandro_Gomez</meencanta><meencanta>Fernanda_Ruiz</meencanta><meencanta>Camila_Torres</meencanta><meencanta>Valeria_Silva</meencanta><meencanta>Natalia_Cruz</meencanta><meencanta>Sofia_Castro</meencanta><meencanta>Gabriel_Maldonado</meencanta><meencanta>Juan</meencanta><meencanta>Diego_Herrera</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Rene_Hernandez</cmtusuario><texto>Entendido profesora, ya descargué el PDF del caso de estudio.</texto></comentario>
+            <comentario><cmtusuario>Alejandro_Gomez</cmtusuario><texto>¿El control de lectura será individual o en los equipos del integrador?</texto></comentario>
+            <comentario><cmtusuario>Fernanda_Ruiz</cmtusuario><texto>Gracias por el aviso, el tema de análisis de costos se ve complejo.</texto></comentario>
+            <comentario><cmtusuario>Gabriel_Maldonado</cmtusuario><texto>Revisado. Los estándares ISO que vienen en la lectura complementan el marco ético.</texto></comentario>
+            <comentario><cmtusuario>Camila_Torres</cmtusuario><texto>¿La entrega del resumen se recorre por el día inhábil de la próxima semana?</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 9 -->
+    <publicacion id="p9">
+        <usuario>Carlos_Iglesias</usuario>
+        <descripcion>Buscando dos integrantes comprometidos para el proyecto final de la materia de Experiencia de Usuario (UX). Ya tenemos el avance de los arquetipos y mapas de empatía listos.</descripcion>
+        <fecha>2026-06-04</fecha>
+        <imagen>../imagenes/publicacion9.jpg</imagen>
+        <reacciones>
+            <meencanta>Juan</meencanta><meencanta>Rene_Hernandez</meencanta><meencanta>Josue_34</meencanta><meencanta>Diego_Herrera</meencanta><meencanta>Valeria_Silva</meencanta><meencanta>Camila_Torres</meencanta><meencanta>Luis_Morales</meencanta><meencanta>Fernanda_Ruiz</meencanta><meencanta>Ricardo_Mendez</meencanta><meencanta>Sofia_Castro</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Rene_Hernandez</cmtusuario><texto>Yo ando buscando equipo Carlos, si quieres nos organizamos saliendo de clase.</texto></comentario>
+            <comentario><cmtusuario>Diego_Herrera</cmtusuario><texto>Me interesa unirme, manejo bien el diseño interactivo en Figma.</texto></comentario>
+            <comentario><cmtusuario>Valeria_Silva</cmtusuario><texto>Si les falta uno más avísenme, ya revisé las directrices de la rúbrica.</texto></comentario>
+            <comentario><cmtusuario>Carlos_Iglesias</cmtusuario><texto>@Rene_Hernandez Perfectisimo, te veo en las mesas de la cafetería.</texto></comentario>
+            <comentario><cmtusuario>Luis_Morales</cmtusuario><texto>Excelente, ya se va armando el equipo para avanzar con los wireframes.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 10 -->
+    <publicacion id="p10">
+        <usuario>Cris_834</usuario>
+        <descripcion>Para la comunidad Linuxera de la FEI: ¿Alguien ha logrado solucionar el error de negociación de certificados SSL en el servidor Prosody local? Me rechaza las conexiones de clientes externos.</descripcion>
+        <fecha>2026-06-04</fecha>
+        <imagen>../imagenes/publicacion10.jpg</imagen>
+        <reacciones>
+            <meencanta>Daniel_48689</meencanta><meencanta>Sebas_773</meencanta><meencanta>Gabriel_Maldonado</meencanta><meencanta>Max_477</meencanta><meencanta>Matias_486</meencanta><meencanta>Javier_Luna</meencanta><meencanta>Elena_Vazquez</meencanta><meencanta>Ricardo_Mendez</meencanta><meencanta>Josue_34</meencanta><meencanta>Arturo_Jimenez</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Gabriel_Maldonado</cmtusuario><texto>Modifica la sintaxis en el archivo prosody.cfg.lua para deshabilitar temporalmente los requisitos estrictos de SSL en desarrollo.</texto></comentario>
+            <comentario><cmtusuario>Sebas_773</cmtusuario><texto>Tienes que mapear bien las rutas absolutas de las llaves públicas dentro del config de Prosody.</texto></comentario>
+            <comentario><cmtusuario>Daniel_48689</cmtusuario><texto>A mí me pasaba lo mismo, el puerto de escucha no estaba abierto en el firewall de Ubuntu.</texto></comentario>
+            <comentario><cmtusuario>Cris_834</cmtusuario><texto>@Gabriel_Maldonado Eso era hermano, modifiqué el cfg.lua desactivando la encriptación obligatoria y jaló al tiro.</texto></comentario>
+            <comentario><cmtusuario>Javier_Luna</cmtusuario><texto>Excelente tip, guardo este post porque me tocará configurar eso la siguiente semana.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 11 -->
+    <publicacion id="p11">
+        <usuario>Angel_4897</usuario>
+        <descripcion>¿Alguien sabe si el comedor de la facultad abrirá en el horario de verano? Los laboratorios de programación se extienden y ocupamos comer algo pesado.</descripcion>
+        <fecha>2026-06-05</fecha>
+        <imagen>../imagenes/publicacion11.jpg</imagen>
+        <reacciones>
+            <meencanta>Mar_4897</meencanta><meencanta>Juan</meencanta><meencanta>Jorge_548</meencanta><meencanta>Matias_486</meencanta><meencanta>Max_477</meencanta><meencanta>Sebas_773</meencanta><meencanta>Carlos_Iglesias</meencanta><meencanta>Rene_Hernandez</meencanta><meencanta>Luis_Morales</meencanta><meencanta>Arturo_Jimenez</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Mar_4897</cmtusuario><texto>Ayer vi un letrero que dice que atienden de 9:00 AM a 4:00 PM de forma corrida.</texto></comentario>
+            <comentario><cmtusuario>Jorge_548</cmtusuario><texto>Confirmado, el menú del día sigue saliendo económico para estudiantes.</texto></comentario>
+            <comentario><cmtusuario>Matias_486</cmtusuario><texto>Vayan temprano porque a las 2:00 PM ya se acaban los paquetes ejecutivos.</texto></comentario>
+            <comentario><cmtusuario>Angel_4897</cmtusuario><texto>@Mar_4897 Muchas gracias por el dato, nos salvaste el día en el laboratorio.</texto></comentario>
+            <comentario><cmtusuario>Arturo_Jimenez</cmtusuario><texto>Esas tortas de la esquina también son buena opción de supervivencia.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 12 -->
+    <publicacion id="p12">
+        <usuario>Mar_4897</usuario>
+        <descripcion>Me encantó la interfaz limpia que lograron en el prototipo final. Se nota mucho el enfoque en resolver los problemas de dispersión de avisos que tenemos en sistemas.</descripcion>
+        <fecha>2026-06-05</fecha>
+        <imagen>../imagenes/publicacion12.jpg</imagen>
+        <reacciones>
+            <meencanta>Angel_4897</meencanta><meencanta>Jorge_548</meencanta><meencanta>Juan</meencanta><meencanta>Daniel_48689</meencanta><meencanta>Sofia_Castro</meencanta><meencanta>Gabriel_Maldonado</meencanta><meencanta>Natalia_Cruz</meencanta><meencanta>Fernanda_Ruiz</meencanta><meencanta>Camila_Torres</meencanta><meencanta>Valeria_Silva</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Jorge_548</cmtusuario><texto>Qué bueno que te gustó Mar, le metimos mucho diseño centrado en el usuario.</texto></comentario>
+            <comentario><cmtusuario>Angel_4897</cmtusuario><texto>El modo oscuro se ve espectacular en las pantallas del feed principal.</texto></comentario>
+            <comentario><cmtusuario>Juan</cmtusuario><texto>Gracias por el feedback, sirvieron bastante los mapas de viaje para pulirlo.</texto></comentario>
+            <comentario><cmtusuario>Sofia_Castro</cmtusuario><texto>Gran logro de usabilidad, felicidades al equipo desarrollador.</texto></comentario>
+            <comentario><cmtusuario>Gabriel_Maldonado</cmtusuario><texto>Buscamos balancear la estética institucional con la fluidez técnica.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 13 -->
+    <publicacion id="p13">
+        <usuario>Max_477</usuario>
+        <descripcion>Avisando que en el laboratorio 3 encontramos una memoria USB negra abandonada junto a la computadora 12. La dejamos con el encargado para que pasen por ella.</descripcion>
+        <fecha>2026-06-05</fecha>
+        <imagen>../imagenes/publicacion13.jpg</imagen>
+        <reacciones>
+            <meencanta>Matias_486</meencanta><meencanta>Sebas_773</meencanta><meencanta>Daniel_48689</meencanta><meencanta>Cris_834</meencanta><meencanta>Juan</meencanta><meencanta>Luis_Morales</meencanta><meencanta>Diego_Herrera</meencanta><meencanta>Ricardo_Mendez</meencanta><meencanta>Javier_Luna</meencanta><meencanta>Arturo_Jimenez</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Matias_486</cmtusuario><texto>Ojalá la encuentre el dueño, perder archivos en esta semana de entregas es mortal.</texto></comentario>
+            <comentario><cmtusuario>Javier_Luna</cmtusuario><texto>Creo que es de un compañero de administración, le voy a avisar de inmediato.</texto></comentario>
+            <comentario><cmtusuario>Luis_Morales</cmtusuario><texto>Héroe sin capa, muchos se las quedan o las formatean.</texto></comentario>
+            <comentario><cmtusuario>Max_477</cmtusuario><texto>@Javier_Luna Qué bueno, ojalá sí sea la suya porque traía carpetas de código.</texto></comentario>
+            <comentario><cmtusuario>Arturo_Jimenez</cmtusuario><texto>Puntos extra en ética para el compañero por reportarla.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 14 -->
+    <publicacion id="p14">
+        <usuario>Matias_486</usuario>
+        <descripcion>Recordatorio de que el repositorio de Git para el proyecto de RedUV debe tener las carpetas organizadas en la raíz para evitar errores en el servidor de despliegue automatizado.</descripcion>
+        <fecha>2026-06-05</fecha>
+        <imagen>../imagenes/publicacion14.jpg</imagen>
+        <reacciones>
+            <meencanta>Jorge_548</meencanta><meencanta>Max_477</meencanta><meencanta>Juan</meencanta><meencanta>Daniel_48689</meencanta><meencanta>Gabriel_Maldonado</meencanta><meencanta>Sofia_Castro</meencanta><meencanta>Ricardo_Mendez</meencanta><meencanta>Javier_Luna</meencanta><meencanta>Elena_Vazquez</meencanta><meencanta>Diana_Patricio</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Gabriel_Maldonado</cmtusuario><texto>Cierto. Moví los archivos del subdirectorio anidado directo al root para solucionar la compatibilidad de index.</texto></comentario>
+            <comentario><cmtusuario>Daniel_48689</cmtusuario><texto>Gracias Matias, ya estábamos teniendo problemas con las rutas de las imágenes en GitHub Pages.</texto></comentario>
+            <comentario><cmtusuario>Jorge_548</cmtusuario><texto>Quedó corregido en el último commit de la rama principal.</texto></comentario>
+            <comentario><cmtusuario>Sofia_Castro</cmtusuario><texto>Excelente orden con la gestión de ramas del equipo.</texto></comentario>
+            <comentario><cmtusuario>Matias_486</cmtusuario><texto>Perfecto Gabriel, así garantizamos que el build pase limpio sin errores.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 15 -->
+    <publicacion id="p15">
+        <usuario>Rene_Hernandez</usuario>
+        <descripcion>¿Alguien tiene la guía oficial para configurar de forma manual el servicio de DHCP en redes empresariales? Los comandos de consola me arrojan error sintáctico.</descripcion>
+        <fecha>2026-06-06</fecha>
+        <imagen>../imagenes/publicacion15.jpg</imagen>
+        <reacciones>
+            <meencanta>Carlos_Iglesias</meencanta><meencanta>Josue_34</meencanta><meencanta>Sebas_773</meencanta><meencanta>Cris_834</meencanta><meencanta>Daniel_48689</meencanta><meencanta>Gabriel_Maldonado</meencanta><meencanta>Luis_Morales</meencanta><meencanta>Diego_Herrera</meencanta><meencanta>Ricardo_Mendez</meencanta><meencanta>Arturo_Jimenez</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Sebas_773</cmtusuario><texto>Te paso el repositorio con la documentación del archivo dhcpd.conf por mensaje.</texto></comentario>
+            <comentario><cmtusuario>Gabriel_Maldonado</cmtusuario><texto>Verifica los rangos de subredes declarados, si un número choca con la máscara por eso da error.</texto></comentario>
+            <comentario><cmtusuario>Cris_834</cmtusuario><texto>Usa sudo dhcpd -t para probar la sintaxis sin tener que tirar todo el servicio local.</texto></comentario>
+            <comentario><cmtusuario>Rene_Hernandez</cmtusuario><texto>@Cris_834 Ese comando de testeo me salvó, tenía una llave mal cerrada en las líneas base.</texto></comentario>
+            <comentario><cmtusuario>Diego_Herrera</cmtusuario><texto>Sistemas y sus archivos de configuración estrictos, un clásico de la carrera.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 16 -->
+    <publicacion id="p16">
+        <usuario>Alejandro_Gomez</usuario>
+        <descripcion>Avanzando con los mockups estáticos de alta fidelidad. Los componentes visuales con los colores institucionales de la UV le dan mucha seriedad al flujo.</descripcion>
+        <fecha>2026-06-06</fecha>
+        <imagen>../imagenes/publicacion16.jpg</imagen>
+        <reacciones>
+            <meencanta>Marianita_Chuchita</meencanta><meencanta>Fernanda_Ruiz</meencanta><meencanta>Camila_Torres</meencanta><meencanta>Luis_Morales</meencanta><meencanta>Rodrigo_Perez</meencanta><meencanta>Valeria_Silva</meencanta><meencanta>Diego_Herrera</meencanta><meencanta>Natalia_Cruz</meencanta><meencanta>Sofia_Castro</meencanta><meencanta>Juan</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Marianita_Chuchita</cmtusuario><texto>Buen trabajo Alejandro, recuerden justificar la selección de paletas con los principios de consistencia.</texto></comentario>
+            <comentario><cmtusuario>Fernanda_Ruiz</cmtusuario><texto>Me gustan mucho los bordes redondeados que le pusiste a las tarjetas de post.</texto></comentario>
+            <comentario><cmtusuario>Camila_Torres</cmtusuario><texto>¿Ya validaron los contrastes de fuentes para cumplir con las guías de accesibilidad?</texto></comentario>
+            <comentario><cmtusuario>Alejandro_Gomez</cmtusuario><texto>@Camila_Torres Sí, pasamos los códigos hexadecimales por el evaluador WCAG y dio verde.</texto></comentario>
+            <comentario><cmtusuario>Valeria_Silva</cmtusuario><texto>Esa interfaz interactiva se ve sumamente profesional, gran trabajo.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 17 -->
+    <publicacion id="p17">
+        <usuario>Fernanda_Ruiz</usuario>
+        <descripcion>¿Saben si la facultad abrirá los laboratorios de cómputo el sábado por la mañana? Ocupamos avanzar con las pruebas de bases de datos relacionales en MySQL.</descripcion>
+        <fecha>2026-06-06</fecha>
+        <imagen>../imagenes/publicacion17.jpg</imagen>
+        <reacciones>
+            <meencanta>Alejandro_Gomez</meencanta><meencanta>Luis_Morales</meencanta><meencanta>Camila_Torres</meencanta><meencanta>Juan</meencanta><meencanta>Daniel_48689</meencanta><meencanta>Gabriel_Maldonado</meencanta><meencanta>Sofia_Castro</meencanta><meencanta>Diego_Herrera</meencanta><meencanta>Natalia_Cruz</meencanta><meencanta>Ricardo_Mendez</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Luis_Morales</cmtusuario><texto>Están abiertos de 8:00 AM a 1:00 PM, pero hay que pedir permiso con el encargado hoy.</texto></comentario>
+            <comentario><cmtusuario>Alejandro_Gomez</cmtusuario><texto>Yo paso a firmar la lista de apartado saliendo de la clase de economía.</texto></comentario>
+            <comentario><cmtusuario>Daniel_48689</cmtusuario><texto>Lleven los scripts SQL listos para cargar directo al servidor local.</texto></comentario>
+            <comentario><cmtusuario>Fernanda_Ruiz</cmtusuario><texto>@Luis_Morales Gracias Luis, ya le dije a Alex para agilizar la firma.</texto></comentario>
+            <comentario><cmtusuario>Ricardo_Mendez</cmtusuario><texto>El laboratorio 2 tiene las versiones de MySQL actualizadas, intenten apartar ese.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 18 -->
+    <publicacion id="p18">
+        <usuario>Luis_Morales</usuario>
+        <descripcion>Diseñando el diagrama de arquitectura de información para el sitemap de la plataforma. Estructurar menús intuitivos reduce drásticamente los pasos del usuario.</descripcion>
+        <fecha>2026-06-06</fecha>
+        <imagen>../imagenes/publicacion18.jpg</imagen>
+        <reacciones>
+            <meencanta>Fernanda_Ruiz</meencanta><meencanta>Camila_Torres</meencanta><meencanta>Rodrigo_Perez</meencanta><meencanta>Valeria_Silva</meencanta><meencanta>Juan</meencanta><meencanta>Carlos_Iglesias</meencanta><meencanta>Rene_Hernandez</meencanta><meencanta>Diego_Herrera</meencanta><meencanta>Natalia_Cruz</meencanta><meencanta>Sofia_Castro</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Camila_Torres</cmtusuario><texto>¿Hicieron la prueba de Card Sorting con alumnos para validar los nombres de los menús?</texto></comentario>
+            <comentario><cmtusuario>Luis_Morales</cmtusuario><texto>@Camila_Torres Sí, se la aplicamos a 5 estudiantes y por eso unificamos 'Buscar perfiles'.</texto></comentario>
+            <comentario><cmtusuario>Rodrigo_Perez</cmtusuario><texto>Quedó muy claro el mapa jerárquico, felicidades al equipo por documentarlo bien.</texto></comentario>
+            <comentario><cmtusuario>Valeria_Silva</cmtusuario><texto>El flujo lógico del usuario final es sumamente directo en la propuesta académica.</texto></comentario>
+            <comentario><cmtusuario>Sofia_Castro</cmtusuario><texto>Tener pocos niveles de navegación ahorra mucha frustración cognitiva.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 19 -->
+    <publicacion id="p19">
+        <usuario>Camila_Torres</usuario>
+        <descripcion>Preparando el escenario de pruebas de usabilidad con la métrica SUS. Validar la satisfacción con usuarios reales de la facultad dará sustento al proyecto final.</descripcion>
+        <fecha>2026-06-06</fecha>
+        <imagen>../imagenes/publicacion19.jpg</imagen>
+        <reacciones>
+            <meencanta>Luis_Morales</meencanta><meencanta>Rodrigo_Perez</meencanta><meencanta>Valeria_Silva</meencanta><meencanta>Diego_Herrera</meencanta><meencanta>Natalia_Cruz</meencanta><meencanta>Ricardo_Mendez</meencanta><meencanta>Sofia_Castro</meencanta><meencanta>Gabriel_Maldonado</meencanta><meencanta>Juan</meencanta><meencanta>Marianita_Chuchita</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Marianita_Chuchita</cmtusuario><texto>Excelente Camila, el uso del cuestionario SUS dará el rigor cuantitativo requerido en la rúbrica.</texto></comentario>
+            <comentario><cmtusuario>Rodrigo_Perez</cmtusuario><texto>Ya tenemos el guion de tareas listo para aplicarlo a los evaluados de sistemas.</texto></comentario>
+            <comentario><cmtusuario>Valeria_Silva</cmtusuario><texto>Ojalá la tasa de éxito de tareas salga alta en el primer prototipo navegable.</texto></comentario>
+            <comentario><cmtusuario>Gabriel_Maldonado</cmtusuario><texto>Incluimos el consentimiento informado antes de arrancar las grabaciones del testeo.</texto></comentario>
+            <comentario><cmtusuario>Sofia_Castro</cmtusuario><texto>Documentar el tiempo por tarea dará buenas métricas de eficiencia en la interfaz.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 20 -->
+    <publicacion id="p20">
+        <usuario>Rodrigo_Perez</usuario>
+        <descripcion>Acomodando los estilos tipográficos en la hoja de estilos compartida. Usar fuentes legibles garantiza consistencia visual y reduce errores de lectura.</descripcion>
+        <fecha>2026-06-07</fecha>
+        <imagen>../imagenes/publicacion20.jpg</imagen>
+        <reacciones>
+            <meencanta>Camila_Torres</meencanta><meencanta>Valeria_Silva</meencanta><meencanta>Diego_Herrera</meencanta><meencanta>Natalia_Cruz</meencanta><meencanta>Ricardo_Mendez</meencanta><meencanta>Sofia_Castro</meencanta><meencanta>Gabriel_Maldonado</meencanta><meencanta>Juan</meencanta><meencanta>Javier_Luna</meencanta><meencanta>Elena_Vazquez</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Valeria_Silva</cmtusuario><texto>Qué bueno que estandarizaste los tamaños de h1 y h2, ya se veía dispar en el muro.</texto></comentario>
+            <comentario><cmtusuario>Camila_Torres</cmtusuario><texto>La fuente Arial o Helvetica hereda bien las propiedades de escala nativa en Android.</texto></comentario>
+            <comentario><cmtusuario>Diego_Herrera</cmtusuario><texto>Quedó impecable la consistencia visual en el diseño responsivo móvil.</texto></comentario>
+            <comentario><cmtusuario>Elena_Vazquez</cmtusuario><texto>El interlineado que pusiste ayuda mucho a leer bloques largos de texto.</texto></comentario>
+            <comentario><cmtusuario>Rodrigo_Perez</cmtusuario><texto>@Valeria_Silva Sí Vale, la idea es que la jerarquía visual sea inmediata al scrolear.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 21 -->
+    <publicacion id="p21">
+        <usuario>Valeria_Silva</usuario>
+        <descripcion>Terminando la matriz de requerimientos funcionales derivados de las frustraciones observadas en nuestras User Personas. Diseñar con propósito evita funciones inútiles.</descripcion>
+        <fecha>2026-06-07</fecha>
+        <imagen>../imagenes/publicacion21.jpg</imagen>
+        <reacciones>
+            <meencanta>Rodrigo_Perez</meencanta><meencanta>Diego_Herrera</meencanta><meencanta>Natalia_Cruz</meencanta><meencanta>Ricardo_Mendez</meencanta><meencanta>Sofia_Castro</meencanta><meencanta>Gabriel_Maldonado</meencanta><meencanta>Juan</meencanta><meencanta>Javier_Luna</meencanta><meencanta>Elena_Vazquez</meencanta><meencanta>Mauricio_Flores</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Diego_Herrera</cmtusuario><texto>Totalmente. Conectar cada botón del prototipo con una necesidad real justifica la solución.</texto></comentario>
+            <comentario><cmtusuario>Natalia_Cruz</cmtusuario><texto>La sección de grupos soluciona directo el dolor de información dispersa en redes.</texto></comentario>
+            <comentario><cmtusuario>Sofia_Castro</cmtusuario><texto>Es el núcleo de la ingeniería de requisitos orientada a la experiencia de usuario.</texto></comentario>
+            <comentario><cmtusuario>Gabriel_Maldonado</cmtusuario><texto>Esto le dará un peso enorme al informe final del proyecto técnico.</texto></comentario>
+            <comentario><cmtusuario>Valeria_Silva</cmtusuario><texto>@Diego_Herrera Exacto Diego, evitamos el sobre-diseño y optimizamos el código.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 22 -->
+    <publicacion id="p22">
+        <usuario>Diego_Herrera</usuario>
+        <descripcion>Ajustando las transiciones animadas en los modales de comentarios. Una animación sutil de 0.2 segundos hace que la interfaz se sienta mucho más fluida e interactiva.</descripcion>
+        <fecha>2026-06-07</fecha>
+        <imagen>../imagenes/publicacion22.jpg</imagen>
+        <reacciones>
+            <meencanta>Valeria_Silva</meencanta><meencanta>Natalia_Cruz</meencanta><meencanta>Ricardo_Mendez</meencanta><meencanta>Sofia_Castro</meencanta><meencanta>Gabriel_Maldonado</meencanta><meencanta>Juan</meencanta><meencanta>Daniel_48689</meencanta><meencanta>Jorge_548</meencanta><meencanta>Sebas_773</meencanta><meencanta>Cris_834</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Gabriel_Maldonado</cmtusuario><texto>El efecto fadeIn que pusiste en globales.css quedó de lujo hermano.</texto></comentario>
+            <comentario><cmtusuario>Daniel_48689</cmtusuario><texto>Sí, evita ese parpadeo tosco de bloque que traía la versión base de JS.</texto></comentario>
+            <comentario><cmtusuario>Valeria_Silva</cmtusuario><texto>Gran detalle estético que sube los puntos de la sección de patrones de interactividad.</texto></comentario>
+            <comentario><cmtusuario>Jorge_548</cmtusuario><texto>Funciona excelente en el modo oscuro, se ve muy premium el despliegue.</texto></comentario>
+            <comentario><cmtusuario>Diego_Herrera</cmtusuario><texto>@Gabriel_Maldonado Qué bueno que te gustó Gabo, la idea era refinar el feedback visual.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 23 -->
+    <publicacion id="p23">
+        <usuario>Natalia_Cruz</usuario>
+        <descripcion>¿Saben si el departamento de tutorías de la facultad dará asesorías grupales para la preparación de los proyectos integradores esta semana?</descripcion>
+        <fecha>2026-06-07</fecha>
+        <imagen>../imagenes/publicacion23.jpg</imagen>
+        <reacciones>
+            <meencanta>Diego_Herrera</meencanta><meencanta>Ricardo_Mendez</meencanta><meencanta>Sofia_Castro</meencanta><meencanta>Juan</meencanta><meencanta>Daniel_48689</meencanta><meencanta>Jorge_548</meencanta><meencanta>Sebas_773</meencanta><meencanta>Marianita_Chuchita</meencanta><meencanta>Carlos_Iglesias</meencanta><meencanta>Rene_Hernandez</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Marianita_Chuchita</cmtusuario><texto>Hola Natalia, los académicos estaremos dando asesoría en los cubículos de 11:00 AM a 1:00 PM.</texto></comentario>
+            <comentario><cmtusuario>Ricardo_Mendez</cmtusuario><texto>Yo voy a ir a revisar la arquitectura del esquema de base de datos relacional.</texto></comentario>
+            <comentario><cmtusuario>Natalia_Cruz</cmtusuario><texto>@Marianita_Chuchita Excelente profesora, por allá nos vemos el equipo completo.</texto></comentario>
+            <comentario><cmtusuario>Diego_Herrera</cmtusuario><texto>Me urge que revisen el flujo lógico del modelo para evitar redundancia.</texto></comentario>
+            <comentario><cmtusuario>Rene_Hernandez</cmtusuario><texto>Aprovechen ese espacio, la revisión previa ahorra muchas correcciones en la rúbrica.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 24 -->
+    <publicacion id="p24">
+        <usuario>Ricardo_Mendez</usuario>
+        <descripcion>Corrigiendo las llaves foráneas en el script SQL. Un solo error tipográfico descompone toda la integridad referencial al cargar el XML.</descripcion>
+        <fecha>2026-06-07</fecha>
+        <imagen>../imagenes/publicacion24.jpg</imagen>
+        <reacciones>
+            <meencanta>Natalia_Cruz</meencanta><meencanta>Sofia_Castro</meencanta><meencanta>Gabriel_Maldonado</meencanta><meencanta>Juan</meencanta><meencanta>Daniel_48689</meencanta><meencanta>Jorge_548</meencanta><meencanta>Sebas_773</meencanta><meencanta>Javier_Luna</meencanta><meencanta>Elena_Vazquez</meencanta><meencanta>Mauricio_Flores</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Daniel_48689</cmtusuario><texto>Usa el generador visual de esquemas para corroborar que las relaciones crucen bien.</texto></comentario>
+            <comentario><cmtusuario>Gabriel_Maldonado</cmtusuario><texto>Recuerda declarar los tipos de datos idénticos en ambas tablas o el engine de MySQL tirará error.</texto></comentario>
+            <comentario><cmtusuario>Sofia_Castro</cmtusuario><texto>La consistencia de nombres en la base de datos es la base del éxito del back-end.</texto></comentario>
+            <comentario><cmtusuario>Ricardo_Mendez</cmtusuario><texto>@Gabriel_Maldonado Tenías razón Gabo, una era INT y la otra VARCHAR, por eso fallaba.</texto></comentario>
+            <comentario><cmtusuario>Javier_Luna</cmtusuario><texto>Errores clásicos que te quitan tres horas de vida en sistemas jaja.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 25 -->
+    <publicacion id="p25">
+        <usuario>Sofia_Castro</usuario>
+        <descripcion>Estructurando el marco metodológico de la documentación del proyecto. Detallar las heurísticas de Nielsen aplicadas eleva la calidad del reporte técnico final.</descripcion>
+        <fecha>2026-06-07</fecha>
+        <imagen>../imagenes/publicacion25.jpg</imagen>
+        <reacciones>
+            <meencanta>Gabriel_Maldonado</meencanta><meencanta>Juan</meencanta><meencanta>Ricardo_Mendez</meencanta><meencanta>Natalia_Cruz</meencanta><meencanta>Diego_Herrera</meencanta><meencanta>Valeria_Silva</meencanta><meencanta>Camila_Torres</meencanta><meencanta>Luis_Morales</meencanta><meencanta>Fernanda_Ruiz</meencanta><meencanta>Alejandro_Gomez</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Gabriel_Maldonado</cmtusuario><texto>Excelente. La consistencia y estándares, junto con la prevención de errores, sustentan el footer y modales.</texto></comentario>
+            <comentario><cmtusuario>Valeria_Silva</cmtusuario><texto>Hacer énfasis en la libertad y control del usuario al poder cerrar paneles da sustento de diseño.</texto></comentario>
+            <comentario><cmtusuario>Camila_Torres</cmtusuario><texto>Tener mensajes claros en los marcadores de posición ayuda a la heurística de reconocimiento.</texto></comentario>
+            <comentario><cmtusuario>Sofia_Castro</cmtusuario><texto>@Gabriel_Maldonado Exacto Gabo, cada cambio estético responde directo a una de las 10 heurísticas.</texto></comentario>
+            <comentario><cmtusuario>Juan</cmtusuario><texto>Este reporte va a quedar de diez con esa profundidad analítica.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 26 -->
+    <publicacion id="p26">
+        <usuario>Javier_Luna</usuario>
+        <descripcion>¿Saben si el laboratorio de redes cuenta con cables cruzados listos para la práctica de interconexión o tenemos que llevar nuestros propios materiales para ponchar?</descripcion>
+        <fecha>2026-06-07</fecha>
+        <imagen>../imagenes/publicacion26.jpg</imagen>
+        <reacciones>
+            <meencanta>Elena_Vazquez</meencanta><meencanta>Mauricio_Flores</meencanta><meencanta>Diana_Patricio</meencanta><meencanta>Juan</meencanta><meencanta>Daniel_48689</meencanta><meencanta>Sebas_773</meencanta><meencanta>Cris_834</meencanta><meencanta>Josue_34</meencanta><meencanta>Max_477</meencanta><meencanta>Matias_486</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Sebas_773</cmtusuario><texto>Hay algunos cables ahí, pero la mitad falla. Mejor lleven sus pinzas y conectores RJ45.</texto></comentario>
+            <comentario><cmtusuario>Cris_834</cmtusuario><texto>Confirmo, ponchar tus propios cables asegura que la práctica corra sin fallas de hardware físico.</texto></comentario>
+            <comentario><cmtusuario>Elena_Vazquez</cmtusuario><texto>Yo compré un metro de cable UTP de sobra, si ocupas te paso un tramo Javier.</texto></comentario>
+            <comentario><cmtusuario>Javier_Luna</cmtusuario><texto>@Elena_Vazquez Súper Elena, me salvas la vida, llevo los conectores mañana.</texto></comentario>
+            <comentario><cmtusuario>Max_477</cmtusuario><texto>Prueba de continuidad obligatoria antes de conectar al switch de la facultad.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 27 -->
+    <publicacion id="p27">
+        <usuario>Elena_Vazquez</usuario>
+        <descripcion>El taller práctico de ciberseguridad superó las expectativas. Ver implementaciones reales de firewalls robustos en entornos Linux nos expande mucho el panorama.</descripcion>
+        <fecha>2026-06-07</fecha>
+        <imagen>../imagenes/publicacion27.jpg</imagen>
+        <reacciones>
+            <meencanta>Javier_Luna</meencanta><meencanta>Mauricio_Flores</meencanta><meencanta>Diana_Patricio</meencanta><meencanta>Sebas_773</meencanta><meencanta>Cris_834</meencanta><meencanta>Jorge_548</meencanta><meencanta>Matias_486</meencanta><meencanta>Max_477</meencanta><meencanta>Angel_4897</meencanta><meencanta>Mar_4897</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Sebas_773</cmtusuario><texto>Qué bueno que te gustó Elena, la configuración de iptables es fundamental en redes seguras.</texto></comentario>
+            <comentario><cmtusuario>Matias_486</cmtusuario><texto>La demostración del ataque de denegación de servicio controlado estuvo excelente para entender la protección.</texto></comentario>
+            <comentario><cmtusuario>Javier_Luna</cmtusuario><texto>A mí me aclaró muchas dudas sobre el manejo seguro de puertos en Nginx.</texto></comentario>
+            <comentario><cmtusuario>Elena_Vazquez</cmtusuario><texto>@Sebas_773 Gracias a ustedes por organizarlo, excelente manejo de la consola de comandos.</texto></comentario>
+            <comentario><cmtusuario>Mar_4897</cmtusuario><texto>Para el próximo semestre ojalá organicen la segunda parte del taller.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 28 -->
+    <publicacion id="p28">
+        <usuario>Mauricio_Flores</usuario>
+        <descripcion>¿Alguien tiene experiencia usando la biblioteca de validación de esquemas XML mediante DTD para proyectos Java estructurados? El compilador me rechaza la estructura jerárquica.</descripcion>
+        <fecha>2026-06-07</fecha>
+        <imagen>../imagenes/publicacion28.jpg</imagen>
+        <reacciones>
+            <meencanta>Diana_Patricio</meencanta><meencanta>Javier_Luna</meencanta><meencanta>Elena_Vazquez</meencanta><meencanta>Gabriel_Maldonado</meencanta><meencanta>Daniel_48689</meencanta><meencanta>Juan</meencanta><meencanta>Jorge_548</meencanta><meencanta>Ricardo_Mendez</meencanta><meencanta>Sofia_Castro</meencanta><meencanta>Arturo_Jimenez</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Gabriel_Maldonado</cmtusuario><texto>Asegúrate de activar la propiedad setValidating(true) en el DocumentBuilderFactory de Java.</texto></comentario>
+            <comentario><cmtusuario>Daniel_48689</cmtusuario><texto>Revisa el orden estricto de los elementos secundarios declarados en el archivo DTD externo.</texto></comentario>
+            <comentario><cmtusuario>Diana_Patricio</cmtusuario><texto>Te paso el método de lectura que usamos en nuestro proyecto, valida sin problemas.</texto></comentario>
+            <comentario><cmtusuario>Mauricio_Flores</cmtusuario><texto>@Gabriel_Maldonado Era la propiedad de fábrica, no estaba parseando la validación estricta. ¡Gracias!</texto></comentario>
+            <comentario><cmtusuario>Ricardo_Mendez</cmtusuario><texto>Esa validación estricta te ahorra meter datos corruptos en el árbol del DOM.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 29 -->
+    <publicacion id="p29">
+        <usuario>Diana_Patricio</usuario>
+        <descripcion>Por fin logramos conectar la aplicación local Java mediante JDBC con la base de datos relacional de la escuela. Las consultas de inserción corren limpias.</descripcion>
+        <fecha>2026-06-08</fecha>
+        <imagen>../imagenes/publicacion29.jpg</imagen>
+        <reacciones>
+            <meencanta>Mauricio_Flores</meencanta><meencanta>Javier_Luna</meencanta><meencanta>Elena_Vazquez</meencanta><meencanta>Gabriel_Maldonado</meencanta><meencanta>Daniel_48689</meencanta><meencanta>Juan</meencanta><meencanta>Jorge_548</meencanta><meencanta>Ricardo_Mendez</meencanta><meencanta>Sofia_Castro</meencanta><meencanta>Arturo_Jimenez</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Mauricio_Flores</cmtusuario><texto>Excelente trabajo Diana, un paso gigante para el cierre del módulo del back-end.</texto></comentario>
+            <comentario><cmtusuario>Jorge_548</cmtusuario><texto>Recuerden cerrar las conexiones en el bloque finally para evitar saturación del pool en MySQL.</texto></comentario>
+            <comentario><cmtusuario>Ricardo_Mendez</cmtusuario><texto>El uso de PreparedStatement evita ataques básicos de inyección, buenísima elección.</texto></comentario>
+            <comentario><cmtusuario>Diana_Patricio</cmtusuario><texto>@Jorge_548 Sí Jorge, implementamos un método conexion.close() seguro para cada query.</texto></comentario>
+            <comentario><cmtusuario>Juan</cmtusuario><texto>Gran avance de desarrollo, ya se ve la luz al final del túnel académico.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 30 -->
+    <publicacion id="p30">
+        <usuario>Arturo_Jimenez</usuario>
+        <descripcion>¿Alguien sabe si la fecha límite para la entrega de los reportes técnicos de la experiencia educativa se mantiene para este viernes o darán prórroga?</descripcion>
+        <fecha>2026-06-08</fecha>
+        <imagen>../imagenes/publicacion30.jpg</imagen>
+        <reacciones>
+            <meencanta>Juan</meencanta><meencanta>Daniel_48689</meencanta><meencanta>Jorge_548</meencanta><meencanta>Sebas_773</meencanta><meencanta>Cris_834</meencanta><meencanta>Angel_4897</meencanta><meencanta>Mar_4897</meencanta><meencanta>Max_477</meencanta><meencanta>Matias_486</meencanta><meencanta>Rene_Hernandez</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Rene_Hernandez</cmtusuario><texto>El profesor mencionó que la plataforma cierra a la medianoche del viernes de forma estricta.</texto></comentario>
+            <comentario><cmtusuario>Daniel_48689</cmtusuario><texto>No dejen el envío para las 11:00 PM, la red interna de la UV suele ponerse lenta.</texto></comentario>
+            <comentario><cmtusuario>Jorge_548</cmtusuario><texto>Hay que subir los diagramas interactivos y los enlaces de Figma completos.</texto></comentario>
+            <comentario><cmtusuario>Arturo_Jimenez</cmtusuario><texto>@Rene_Hernandez Enterado hermano, a meterle velocidad a la redacción del informe.</texto></comentario>
+            <comentario><cmtusuario>Max_477</cmtusuario><texto>A organizarse bien con los integrantes para evitar contratiempos de última hora.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 31 -->
+    <publicacion id="p31">
+        <usuario>Juan</usuario>
+        <descripcion>Ajustando las dimensiones de los modales en la pantalla del feed. La consistencia visual en la alineación de componentes mejora drásticamente la experiencia de usuario (UX).</descripcion>
+        <fecha>2026-06-08</fecha>
+        <imagen>../imagenes/publicacion31.jpg</imagen>
+        <reacciones>
+            <meencanta>Daniel_48689</meencanta><meencanta>Jorge_548</meencanta><meencanta>Sebas_773</meencanta><meencanta>Angel_4897</meencanta><meencanta>Cris_834</meencanta><meencanta>Mar_4897</meencanta><meencanta>Max_477</meencanta><meencanta>Matias_486</meencanta><meencanta>Sofia_Castro</meencanta><meencanta>Gabriel_Maldonado</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Gabriel_Maldonado</cmtusuario><texto>Muy limpio el centrado absoluto que logramos con transform translate, quedó a la medida.</texto></comentario>
+            <comentario><cmtusuario>Sofia_Castro</cmtusuario><texto>El balance con la rejilla de los 4 bloques centrales le dio un orden impecable.</texto></comentario>
+            <comentario><cmtusuario>Daniel_48689</cmtusuario><texto>Sí, el salto tosco de tamaños quedó completamente eliminado de las vistas.</texto></comentario>
+            <comentario><cmtusuario>Juan</cmtusuario><texto>@Gabriel_Maldonado Así es Gabo, la simetría horizontal en 800px era clave.</texto></comentario>
+            <comentario><cmtusuario>Jorge_548</cmtusuario><texto>Gran refinamiento de usabilidad, un cambio excelente.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 32 -->
+    <publicacion id="p32">
+        <usuario>Daniel_48689</usuario>
+        <descripcion>Implementando los métodos de escucha para capturar el click fuera de los componentes flotantes. Evitar que las notificaciones se queden pegadas limpia el entorno visual.</descripcion>
+        <fecha>2026-06-08</fecha>
+        <imagen>../imagenes/publicacion32.jpg</imagen>
+        <reacciones>
+            <meencanta>Juan</meencanta><meencanta>Jorge_548</meencanta><meencanta>Sebas_773</meencanta><meencanta>Gabriel_Maldonado</meencanta><meencanta>Sofia_Castro</meencanta><meencanta>Ricardo_Mendez</meencanta><meencanta>Javier_Luna</meencanta><meencanta>Elena_Vazquez</meencanta><meencanta>Mauricio_Flores</meencanta><meencanta>Diana_Patricio</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Juan</cmtusuario><texto>Gran acierto de interacción. El uso de contains() resolvió de forma nativa ese comportamiento molesto.</texto></comentario>
+            <comentario><cmtusuario>Gabriel_Maldonado</cmtusuario><texto>El seguro de validación de IDs en el document listener evitó el bucle de cierre espontáneo, quedó fluido.</texto></comentario>
+            <comentario><cmtusuario>Sofia_Castro</cmtusuario><texto>Eso cumple directamente con la heurística de libertad y control del usuario.</texto></comentario>
+            <comentario><cmtusuario>Daniel_48689</cmtusuario><texto>@Gabriel_Maldonado Totalmente, el stopPropagation nos estaba rompiendo la lógica inicial.</texto></comentario>
+            <comentario><cmtusuario>Sebas_773</cmtusuario><texto>Un comportamiento intuitivo digno de una plataforma real, felicidades.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 33 -->
+    <publicacion id="p33">
+        <usuario>Jorge_548</usuario>
+        <descripcion>¿Saben si el laboratorio de cómputo cuenta con la extensión de servidor Tomcat instalada de forma nativa en NetBeans o tenemos que descargar el paquete binario por separado?</descripcion>
+        <fecha>2026-06-08</fecha>
+        <imagen>../imagenes/publicacion33.jpg</imagen>
+        <reacciones>
+            <meencanta>Matias_486</meencanta><meencanta>Max_477</meencanta><meencanta>Juan</meencanta><meencanta>Daniel_48689</meencanta><meencanta>Gabriel_Maldonado</meencanta><meencanta>Ricardo_Mendez</meencanta><meencanta>Diana_Patricio</meencanta><meencanta>Mauricio_Flores</meencanta><meencanta>Javier_Luna</meencanta><meencanta>Arturo_Jimenez</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Gabriel_Maldonado</cmtusuario><texto>Ya viene instalado el archivo base, pero a veces el servicio local de Windows Server tiene bloqueado el puerto 8080.</texto></comentario>
+            <comentario><cmtusuario>Diana_Patricio</cmtusuario><texto>Confirmo, tuvimos que cambiar el puerto de escucha al 8081 en el server.xml para que levantara la app web.</texto></comentario>
+            <comentario><cmtusuario>Daniel_48689</cmtusuario><texto>Revisa los permisos de administrador en la consola antes de inicializar el servicio de Tomcat.</texto></comentario>
+            <comentario><cmtusuario>Jorge_548</cmtusuario><texto>@Diana_Patricio Excelente tip Diana, haré la modificación del puerto en el XML para evitar colisiones.</texto></comentario>
+            <comentario><cmtusuario>Mauricio_Flores</cmtusuario><texto>Ese choque de puertos con otros servicios locales es sumamente común en los laboratorios.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 34 -->
+    <publicacion id="p34">
+        <usuario>Sebas_773</usuario>
+        <descripcion>Revisando la consistencia en el escalado de imágenes corporativas en dispositivos móviles. Usar object-fit: contain evita que los logos institucionales se deformen horriblemente.</descripcion>
+        <fecha>2026-06-08</fecha>
+        <imagen>../imagenes/publicacion34.jpg</imagen>
+        <reacciones>
+            <meencanta>Daniel_48689</meencanta><meencanta>Cris_834</meencanta><meencanta>Jorge_548</meencanta><meencanta>Juan</meencanta><meencanta>Gabriel_Maldonado</meencanta><meencanta>Sofia_Castro</meencanta><meencanta>Luis_Morales</meencanta><meencanta>Camila_Torres</meencanta><meencanta>Fernanda_Ruiz</meencanta><meencanta>Alejandro_Gomez</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Cris_834</cmtusuario><texto>Gran acierto Sebas, el logo de la UV en el header mantenía una relación de aspecto rara antes del ajuste.</texto></comentario>
+            <comentario><cmtusuario>Alejandro_Gomez</cmtusuario><texto>La visualización fluida de componentes multimedia es obligatoria en la sección de diseño visual de la entrega.</texto></comentario>
+            <comentario><cmtusuario>Camila_Torres</cmtusuario><texto>Respetar la identidad gráfica de la universidad le da formalidad técnica al proyecto interactivo.</texto></comentario>
+            <comentario><cmtusuario>Sebas_773</cmtusuario><texto>@Cris_834 Sí Cris, el layout adaptativo requería que las dimensiones de las imágenes fueran completamente estables.</texto></comentario>
+            <comentario><cmtusuario>Sofia_Castro</cmtusuario><texto>Cuidar esos detalles demuestra el dominio práctico del diseño centrado en el usuario.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 35 -->
+    <publicacion id="p35">
+        <usuario>Cris_834</usuario>
+        <descripcion>¿Alguien tiene a la mano las credenciales de prueba para el servidor local de base de datos relacional de la facultad? Ocupo montar la estructura de tablas limpia.</descripcion>
+        <fecha>2026-06-08</fecha>
+        <imagen>../imagenes/publicacion35.jpg</imagen>
+        <reacciones>
+            <meencanta>Daniel_48689</meencanta><meencanta>Sebas_773</meencanta><meencanta>Gabriel_Maldonado</meencanta><meencanta>Max_477</meencanta><meencanta>Matias_486</meencanta><meencanta>Ricardo_Mendez</meencanta><meencanta>Diana_Patricio</meencanta><meencanta>Mauricio_Flores</meencanta><meencanta>Javier_Luna</meencanta><meencanta>Arturo_Jimenez</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Gabriel_Maldonado</cmtusuario><texto>Usa el usuario root por defecto del localhost con la contraseña de administrador que configuramos en la clase técnica.</texto></comentario>
+            <comentario><cmtusuario>Daniel_48689</cmtusuario><texto>Recuerda inicializar el daemon del servicio mysql en la consola antes de mandar la cadena de conexión JDBC.</texto></comentario>
+            <comentario><cmtusuario>Ricardo_Mendez</cmtusuario><texto>Te mandé la sintaxis exacta de la cadena de conexión por la mensajería interna, checa que la base se llame igual.</texto></comentario>
+            <comentario><cmtusuario>Cris_834</cmtusuario><texto>@Gabriel_Maldonado Con esa contraseña entró directo Gabo, ya cargué la base completa sin bloqueos.</texto></comentario>
+            <comentario><cmtusuario>Matias_486</cmtusuario><texto>Excelente, ya quedó guardado el método para el resto de los módulos de bases de datos.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 36 -->
+    <publicacion id="p36">
+        <usuario>Angel_4897</usuario>
+        <descripcion>Ajustando la ventana de alertas para las interacciones académicas. Recibir feedback inmediato cuando alguien reacciona a tu duda técnica es muy útil en entornos estudiantiles.</descripcion>
+        <fecha>2026-06-08</fecha>
+        <imagen>../imagenes/publicacion36.jpg</imagen>
+        <reacciones>
+            <meencanta>Mar_4897</meencanta><meencanta>Juan</meencanta><meencanta>Jorge_548</meencanta><meencanta>Matias_486</meencanta><meencanta>Max_477</meencanta><meencanta>Sebas_773</meencanta><meencanta>Carlos_Iglesias</meencanta><meencanta>Rene_Hernandez</meencanta><meencanta>Sofia_Castro</meencanta><meencanta>Gabriel_Maldonado</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Mar_4897</cmtusuario><texto>Quedó genial la sección flotante de notificaciones al dar clic en la campana de la barra.</texto></comentario>
+            <comentario><cmtusuario>Sofia_Castro</cmtusuario><texto>La visibilidad del estado del sistema es la primera heurística de Nielsen, excelente implementación.</texto></comentario>
+            <comentario><cmtusuario>Jorge_548</cmtusuario><texto>La transición lateral con CSS para abrir el panel flotante se siente sumamente natural.</texto></comentario>
+            <comentario><cmtusuario>Angel_4897</cmtusuario><texto>@Mar_4897 Qué bueno que te sirvió Mar, la meta era centralizar las alertas institucionales.</texto></comentario>
+            <comentario><cmtusuario>Juan</cmtusuario><texto>Un avance robusto en el diseño de interacción de la plataforma universitaria.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 37 -->
+    <publicacion id="p37">
+        <usuario>Mar_4897</usuario>
+        <descripcion>Revisando los contrastes de color en el switch del modo oscuro. Forzar la paleta a cumplir con el estándar WCAG garantiza una navegación accesible para toda la comunidad.</descripcion>
+        <fecha>2026-06-08</fecha>
+        <imagen>../imagenes/publicacion37.jpg</imagen>
+        <reacciones>
+            <meencanta>Angel_4897</meencanta><meencanta>Jorge_548</meencanta><meencanta>Juan</meencanta><meencanta>Daniel_48689</meencanta><meencanta>Sofia_Castro</meencanta><meencanta>Gabriel_Maldonado</meencanta><meencanta>Camila_Torres</meencanta><meencanta>Luis_Morales</meencanta><meencanta>Fernanda_Ruiz</meencanta><meencanta>Alejandro_Gomez</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Camila_Torres</cmtusuario><texto>El contraste del verde institucional oscuro sobre el fondo gris cumple sobradamente con la accesibilidad técnica.</texto></comentario>
+            <comentario><cmtusuario>Gabriel_Maldonado</cmtusuario><texto>La unificación de las variables globales del dark-mode bajo los estilos base ahorró un montón de líneas de CSS redundantes.</texto></comentario>
+            <comentario><cmtusuario>Sofia_Castro</cmtusuario><texto>Tener una interfaz incluyente es un requisito ético fundamental en nuestro reporte técnico del proyecto.</texto></comentario>
+            <comentario><cmtusuario>Mar_4897</cmtusuario><texto>@Camila_Torres Qué bueno que lo confirmas Cami, pasamos los tests visuales y dio verde en todo.</texto></comentario>
+            <comentario><cmtusuario>Alejandro_Gomez</cmtusuario><texto>Un gran ejemplo de diseño centrado en el usuario llevado a la práctica de sistemas.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 38 -->
+    <publicacion id="p38">
+        <usuario>Max_477</usuario>
+        <descripcion>Acomodando los identificadores de matrícula obligatorios para el registro de cuentas nuevas. Filtrar por correo institucional o matrícula restringe de forma segura el acceso a la RedUV.</descripcion>
+        <fecha>2026-06-08</fecha>
+        <imagen></imagen>
+        <reacciones>
+            <meencanta>Matias_486</meencanta><meencanta>Sebas_773</meencanta><meencanta>Daniel_48689</meencanta><meencanta>Cris_834</meencanta><meencanta>Juan</meencanta><meencanta>Luis_Morales</meencanta><meencanta>Diego_Herrera</meencanta><meencanta>Ricardo_Mendez</meencanta><meencanta>Sofia_Castro</meencanta><meencanta>Gabriel_Maldonado</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Daniel_48689</cmtusuario><texto>Eso soluciona por completo el requisito no funcional de seguridad en la gestión de identidad universitaria.</texto></comentario>
+            <comentario><cmtusuario>Matias_486</cmtusuario><texto>El validador con expresiones regulares en registrarse.js detecta al tiro el patrón oficial de la matrícula.</texto></comentario>
+            <comentario><cmtusuario>Sofia_Castro</cmtusuario><texto>Tener un entorno controlado da mucha confianza a los alumnos para publicar dudas académicas reales.</texto></comentario>
+            <comentario><cmtusuario>Max_477</cmtusuario><texto>@Matias_486 Exacto Mati, si no empieza con 'zS' manda una alerta de error visual de inmediato.</texto></comentario>
+            <comentario><cmtusuario>Gabriel_Maldonado</cmtusuario><texto>Excelente control sintáctico para blindar el flujo de autenticación de la plataforma.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 39 -->
+    <publicacion id="p39">
+        <usuario>Matias_486</usuario>
+        <descripcion>El listado centrado de perfiles mediante la cuadrícula unificada funciona impecable. Buscar compañeros de equipo ahora se despliega milimétricamente debajo del buscador de la barra.</descripcion>
+        <fecha>2026-06-08</fecha>
+        <imagen>../imagenes/publicacion39.jpg</imagen>
+        <reacciones>
+            <meencanta>Jorge_548</meencanta><meencanta>Max_477</meencanta><meencanta>Juan</meencanta><meencanta>Daniel_48689</meencanta><meencanta>Gabriel_Maldonado</meencanta><meencanta>Sofia_Castro</meencanta><meencanta>Ricardo_Mendez</meencanta><meencanta>Javier_Luna</meencanta><meencanta>Elena_Vazquez</meencanta><meencanta>Arturo_Jimenez</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Juan</cmtusuario><texto>El margin auto en la clase de listarPerfiles de globales.css le dio esa simetría del 70% central que buscábamos.</texto></comentario>
+            <comentario><cmtusuario>Gabriel_Maldonado</cmtusuario><texto>La animación sutil fadeInResult al desplegar las coincidencias de usuarios le da mucha fluidez visual.</texto></comentario>
+            <comentario><cmtusuario>Daniel_48689</cmtusuario><texto>Además, el método para vaciar el innerHTML al dar click fuera limpió por completo el ruido visual del fondo.</texto></comentario>
+            <comentario><cmtusuario>Matias_486</cmtusuario><texto>@Gabriel_Maldonado Sí Gabo, pasar de texto plano a las tarjetas de panel-personas fue el verdadero upgrade de UX.</texto></comentario>
+            <comentario><cmtusuario>Sofia_Castro</cmtusuario><texto>Se mantiene la consistencia visual de principio a fin del flujo, felicidades.</texto></comentario>
+        </comentarios>
+    </publicacion>
+
+    <!-- Publicación 40 -->
+    <publicacion id="p40">
+        <usuario>Gabriel_Maldonado</usuario>
+        <descripcion>Finalizando los últimos ajustes de la documentación técnica y corrigiendo las rutas de los submodulos del repositorio para que GitHub Pages despliegue correctamente. ¡El fin de semestre está cerca!</descripcion>
+        <fecha>2026-06-08</fecha>
+        <imagen>../imagenes/publicacion40.jpg</imagen>
+        <reacciones>
+            <meencanta>Sofia_Castro</meencanta><meencanta>Juan</meencanta><meencanta>Daniel_48689</meencanta><meencanta>Jorge_548</meencanta><meencanta>Sebas_773</meencanta><meencanta>Marianita_Chuchita</meencanta><meencanta>Carlos_Iglesias</meencanta><meencanta>Rene_Hernandez</meencanta><meencanta>Diana_Patricio</meencanta><meencanta>Mauricio_Flores</meencanta>
+        </reacciones>
+        <comentarios>
+            <comentario><cmtusuario>Sofia_Castro</cmtusuario><texto>Te quedó super ordenado el repositorio, gran trabajo de estructuración.</texto></comentario>
+            <comentario><cmtusuario>Marianita_Chuchita</cmtusuario><texto>Excelente orden con los entregables del equipo. Sigan así para la evaluación final.</texto></comentario>
+            <comentario><cmtusuario>Juan</cmtusuario><texto>Pasas el truco para que reconozca el archivo index raíz a la primera jaja.</texto></comentario>
+            <comentario><cmtusuario>Daniel_48689</cmtusuario><texto>GitHub Pages a veces es un dolor de cabeza con las carpetas anidadas.</texto></comentario>
+            <comentario><cmtusuario>Jorge_548</cmtusuario><texto>Por fin un repositorio limpio y entendible para el proyecto final.</texto></comentario>
+            <comentario><cmtusuario>Sebas_773</cmtusuario><texto>¡Felicidades por terminar la documentación! El verdadero logro del semestre.</texto></comentario>
+        </comentarios>
+    </publicacion>
 </publicaciones>

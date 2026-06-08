@@ -67,7 +67,7 @@ function cargarPerfilPanel(usuarioXml) {
   
     let nombre = usuarioXml.getElementsByTagName("nombre")[0]?.textContent || "Usuario";
     let fotoPerfil = usuarioXml.getElementsByTagName("imagen")[0]?.textContent || "../imagenes/perfil.png";
-    let fotoPortada = usuarioXml.getElementsByTagName("portada")[0]?.textContent || "../imagenes/juanportada.jpg";
+    let fotoPortada = usuarioXml.getElementsByTagName("imagenportada")[0]?.textContent;
     let seguidores = usuarioXml.getElementsByTagName("seguidor").length;
     let siguiendo = usuarioXml.getElementsByTagName("seguido").length;
 
