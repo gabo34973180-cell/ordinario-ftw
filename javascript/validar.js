@@ -83,7 +83,7 @@ export function irhome() {
 export function cerrarSesion() {
 
     localStorage.removeItem("usuarioLogueado");
-    window.location.href = "inicio_sesion.html";
+    window.location.href = "Inicio_sesion.html";
 
 }
 
